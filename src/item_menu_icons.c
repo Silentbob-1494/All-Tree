@@ -274,17 +274,6 @@ static const struct SpriteFrameImage sBerryPicSpriteImageTable[] =
     {&gDecompressionBuffer[0], 0x800},
 };
 
-static const struct SpriteTemplate sBerryPicSpriteTemplate =
-{
-    .tileTag = TAG_NONE,
-    .paletteTag = TAG_BERRY_PIC_PAL,
-    .oam = &sBerryPicOamData,
-    .anims = sBerryPicSpriteAnimTable,
-    .images = sBerryPicSpriteImageTable,
-    .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy,
-};
-
 static const union AffineAnimCmd sSpriteAffineAnim_BerryPicRotation1[] =
 {
     AFFINEANIMCMD_FRAME(-1, -1, 253, 96),
@@ -313,16 +302,6 @@ static const union AffineAnimCmd *const sBerryPicRotatingAnimCmds[] =
     sSpriteAffineAnim_BerryPicRotation2
 };
 
-static const struct SpriteTemplate sBerryPicRotatingSpriteTemplate =
-{
-    .tileTag = TAG_NONE,
-    .paletteTag = TAG_BERRY_PIC_PAL,
-    .oam = &sBerryPicRotatingOamData,
-    .anims = sBerryPicSpriteAnimTable,
-    .images = sBerryPicSpriteImageTable,
-    .affineAnims = sBerryPicRotatingAnimCmds,
-    .callback = SpriteCallbackDummy,
-};
 
 static const struct CompressedTilesPal sBerryPicTable[] =
 {
@@ -401,28 +380,6 @@ const struct CompressedSpriteSheet gBerryCheckCircleSpriteSheet =
     gBerryCheckCircle_Gfx, 0x800, TAG_BERRY_CHECK_CIRCLE_GFX
 };
 
-const struct CompressedSpritePalette gBerryCheckCirclePaletteTable =
-{
-    gBerryCheck_Pal, TAG_BERRY_CHECK_CIRCLE_GFX
-};
-
-static const struct OamData sBerryCheckCircleOamData =
-{
-    .y = 0,
-    .affineMode = ST_OAM_AFFINE_OFF,
-    .objMode = ST_OAM_OBJ_NORMAL,
-    .mosaic = FALSE,
-    .bpp = ST_OAM_4BPP,
-    .shape = SPRITE_SHAPE(64x64),
-    .x = 0,
-    .matrixNum = 0,
-    .size = SPRITE_SIZE(64x64),
-    .tileNum = 0,
-    .priority = 1,
-    .paletteNum = 0,
-    .affineParam = 0
-};
-
 static const union AnimCmd sSpriteAnim_BerryCheckCircle[] =
 {
     ANIMCMD_FRAME(0, 0),
@@ -438,7 +395,6 @@ static const struct SpriteTemplate sBerryCheckCircleSpriteTemplate =
 {
     .tileTag = TAG_BERRY_CHECK_CIRCLE_GFX,
     .paletteTag = TAG_BERRY_CHECK_CIRCLE_GFX,
-    .oam = &sBerryCheckCircleOamData,
     .anims = sBerryCheckCircleSpriteAnimTable,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
@@ -640,46 +596,7 @@ static void ArrangeBerryGfx(void *src, void *dest)
     }
 }
 
-static void LoadBerryGfx(u8 berryId)
-{
-    struct CompressedSpritePalette pal;
 
-    if (berryId == ITEM_TO_BERRY(ITEM_ENIGMA_BERRY_E_READER) - 1 && IsEnigmaBerryValid())
-    {
-        // unknown empty if statement
-    }
-
-    pal.data = sBerryPicTable[berryId].pal;
-    pal.tag = TAG_BERRY_PIC_PAL;
-    LoadCompressedSpritePalette(&pal);
-    LZDecompressWram(sBerryPicTable[berryId].tiles, &gDecompressionBuffer[0x1000]);
-    ArrangeBerryGfx(&gDecompressionBuffer[0x1000], &gDecompressionBuffer[0]);
-}
-
-u8 CreateBerryTagSprite(u8 id, s16 x, s16 y)
-{
-    LoadBerryGfx(id);
-    return CreateSprite(&sBerryPicSpriteTemplate, x, y, 0);
-}
-
-void FreeBerryTagSpritePalette(void)
-{
-    FreeSpritePaletteByTag(TAG_BERRY_PIC_PAL);
-}
-
-// For throwing berries into the Berry Blender
-u8 CreateSpinningBerrySprite(u8 berryId, u8 x, u8 y, bool8 startAffine)
-{
-    u8 spriteId;
-
-    FreeSpritePaletteByTag(TAG_BERRY_PIC_PAL);
-    LoadBerryGfx(berryId);
-    spriteId = CreateSprite(&sBerryPicRotatingSpriteTemplate, x, y, 0);
-    if (startAffine == TRUE)
-        StartSpriteAffineAnim(&gSprites[spriteId], 1);
-
-    return spriteId;
-}
 
 u8 CreateBerryFlavorCircleSprite(s16 x)
 {

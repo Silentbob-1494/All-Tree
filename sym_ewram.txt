@@ -119,7 +119,6 @@
 	.include "src/credits.o"
 	.include "src/lottery_corner.o"
 	.include "src/diploma.o"
-	.include "src/berry_tag_screen.o"
 	.include "src/mystery_event_menu.o"
 	.include "src/save_failed_screen.o"
 	.include "src/braille_puzzles.o"

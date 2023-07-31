@@ -1196,17 +1196,6 @@ static void SetBerrySpriteData(struct Sprite *sprite, s16 x, s16 y, s16 bounceSp
 #undef sXSpeed
 #undef sYDownSpeed
 
-static void CreateBerrySprite(u16 itemId, u8 playerId)
-{
-    u8 spriteId = CreateSpinningBerrySprite(ITEM_TO_BERRY(itemId) - 1, 0, 80, playerId & 1);
-    SetBerrySpriteData(&gSprites[spriteId],
-                        sBerrySpriteData[playerId][0],
-                        sBerrySpriteData[playerId][1],
-                        sBerrySpriteData[playerId][2],
-                        sBerrySpriteData[playerId][3],
-                        sBerrySpriteData[playerId][4]);
-}
-
 static void ConvertItemToBlenderBerry(struct BlenderBerry* berry, u16 itemId)
 {
     const struct Berry *berryInfo = GetBerryInfo(ITEM_TO_BERRY(itemId));
@@ -1387,16 +1376,6 @@ static void CB2_StartBlenderLink(void)
         break;
     case 11:
         sBerryBlender->numPlayers = GetLinkPlayerCount();
-
-        // Throw 1 player's berry in
-        for (i = 0; i < BLENDER_MAX_PLAYERS; i++)
-        {
-            if (sBerryBlender->playerToThrowBerry == sPlayerIdMap[sBerryBlender->numPlayers - 2][i])
-            {
-                CreateBerrySprite(sBerryBlender->chosenItemId[sBerryBlender->playerToThrowBerry], i);
-                break;
-            }
-        }
 
         sBerryBlender->framesToWait = 0;
         sBerryBlender->mainState++;
@@ -1689,13 +1668,6 @@ static void CB2_StartBlenderLocal(void)
     case 11:
         for (i = 0; i < BLENDER_MAX_PLAYERS; i++)
         {
-            // Throw 1 player's berry in
-            u32 playerId = sPlayerIdMap[sBerryBlender->numPlayers - 2][i];
-            if (sBerryBlender->playerToThrowBerry == playerId)
-            {
-                CreateBerrySprite(sBerryBlender->chosenItemId[sBerryBlender->playerToThrowBerry], i);
-                break;
-            }
         }
         sBerryBlender->framesToWait = 0;
         sBerryBlender->mainState++;
