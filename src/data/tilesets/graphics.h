@@ -1634,3 +1634,41 @@ const u16 gTilesetPalettes_UnionRoom[][16] =
 };
 
 const u32 gTilesetTiles_UnionRoom[] = INCBIN_U32("data/tilesets/secondary/union_room/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Indoor_Tree[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/indoor_tree/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Indoor_Tree[] = INCBIN_U32("data/tilesets/primary/indoor_tree/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_treetop_pond[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/treetop_pond/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_treetop_pond[] = INCBIN_U32("data/tilesets/primary/treetop_pond/tiles.4bpp.lz");

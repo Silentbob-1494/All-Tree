@@ -1,5 +1,5 @@
 .set LOCALID_TWIN, 1
-.set LOCALID_MOM, 4
+.set LOCALID_MOM, 12
 .set LOCALID_RIVAL, 7
 .set LOCALID_BIRCH, 8
 
@@ -51,6 +51,7 @@ LittlerootTown_OnTransition:
 	call_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_EventScript_SetRivalLeftForRoute103
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_HideMapNamePopup
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_EventScript_LeftLabAfterDexUpgrade
+	call_if_unset B_RIVAL_SETUP_FLAG, LittlerootTown_EventScript_SetupRivalBattle
 	end
 
 LittlerootTown_EventScript_LeftLabAfterDexUpgrade::
@@ -1019,3 +1020,528 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_EventScript_NewSign::
+	lockall
+	msgbox LittlerootTown_EventScript_NewSign_Text_0
+	releaseall
+	return
+
+
+Won::
+	fadescreen FADE_TO_BLACK
+	removeobject 8
+	fadescreen FADE_FROM_BLACK
+	msgbox Won_Text_0
+	setvar LITTLEROOT_STATE, 4
+	return
+
+
+RanAway::
+	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	msgbox RanAway_Text_0, MSGBOX_AUTOCLOSE
+	delay 20
+	fadescreen FADE_TO_BLACK
+	removeobject 8
+	fadescreen FADE_FROM_BLACK
+	msgbox RanAway_Text_1
+	setvar LITTLEROOT_STATE, 4
+	return
+
+
+Caught::
+	fadescreen FADE_TO_BLACK
+	removeobject 8
+	fadescreen FADE_FROM_BLACK
+	msgbox Caught_Text_0
+	setvar LITTLEROOT_STATE, 4
+	return
+
+
+LittlerootTown_EventScript_Rayquaza::
+	lockall
+	setflag B_RAYQUAZA_FLAG
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	msgbox LittlerootTown_EventScript_Rayquaza_Text_0
+	delay 40
+	waitmoncry
+	call LegendaryShake
+	setwildbattle SPECIES_RAYQUAZA, 5, ITEM_MASTER_BALL
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Rayquaza_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Rayquaza_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Rayquaza_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Rayquaza_5
+LittlerootTown_EventScript_Rayquaza_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Rayquaza_2:
+	call CaughtRayquaza
+	goto LittlerootTown_EventScript_Rayquaza_1
+
+LittlerootTown_EventScript_Rayquaza_3:
+	call WonRayquaza
+	goto LittlerootTown_EventScript_Rayquaza_1
+
+LittlerootTown_EventScript_Rayquaza_4:
+	call RanAwayRayquaza
+	goto LittlerootTown_EventScript_Rayquaza_1
+
+LittlerootTown_EventScript_Rayquaza_5:
+	call RanAwayRayquaza
+	goto LittlerootTown_EventScript_Rayquaza_1
+
+
+WonRayquaza::
+	fadescreen FADE_TO_BLACK
+	removeobject 10
+	fadescreen FADE_FROM_BLACK
+	msgbox WonRayquaza_Text_0
+	setvar LITTLEROOT_STATE, 6
+	return
+
+
+RanAwayRayquaza::
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	msgbox RanAwayRayquaza_Text_0, MSGBOX_AUTOCLOSE
+	delay 20
+	fadescreen FADE_TO_BLACK
+	removeobject 10
+	fadescreen FADE_FROM_BLACK
+	msgbox RanAwayRayquaza_Text_1
+	setvar LITTLEROOT_STATE, 6
+	return
+
+
+CaughtRayquaza::
+	fadescreen FADE_TO_BLACK
+	removeobject 10
+	fadescreen FADE_FROM_BLACK
+	msgbox CaughtRayquaza_Text_0
+	setvar LITTLEROOT_STATE, 6
+	return
+
+
+LittlerootTown_EventScript_Groudon::
+	lockall
+	setflag B_GROUDON_FLAG
+	playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+	msgbox LittlerootTown_EventScript_Groudon_Text_0
+	delay 40
+	waitmoncry
+	call LegendaryShake
+	setwildbattle SPECIES_GROUDON, 5, ITEM_RED_ORB
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Groudon_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Groudon_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Groudon_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Groudon_5
+LittlerootTown_EventScript_Groudon_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Groudon_2:
+	call CaughtGroudon
+	goto LittlerootTown_EventScript_Groudon_1
+
+LittlerootTown_EventScript_Groudon_3:
+	call WonGroudon
+	goto LittlerootTown_EventScript_Groudon_1
+
+LittlerootTown_EventScript_Groudon_4:
+	call RanAwayGroudon
+	goto LittlerootTown_EventScript_Groudon_1
+
+LittlerootTown_EventScript_Groudon_5:
+	call RanAwayGroudon
+	goto LittlerootTown_EventScript_Groudon_1
+
+
+LegendaryShake::
+	delay 30
+	setvar VAR_0x8004, 2
+	setvar VAR_0x8005, 6
+	setvar VAR_0x8006, 4
+	setvar VAR_0x8007, 4
+	special ShakeCamera
+	waitstate
+	delay 60
+	return
+
+
+WonGroudon::
+	fadescreen FADE_TO_BLACK
+	removeobject 9
+	fadescreen FADE_FROM_BLACK
+	msgbox WonGroudon_Text_0
+	setvar LITTLEROOT_STATE, 5
+	return
+
+
+RanAwayGroudon::
+	playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+	msgbox RanAwayGroudon_Text_0, MSGBOX_AUTOCLOSE
+	delay 20
+	fadescreen FADE_TO_BLACK
+	removeobject 9
+	fadescreen FADE_FROM_BLACK
+	msgbox RanAwayGroudon_Text_1
+	setvar LITTLEROOT_STATE, 5
+	return
+
+
+CaughtGroudon::
+	fadescreen FADE_TO_BLACK
+	removeobject 9
+	fadescreen FADE_FROM_BLACK
+	msgbox CaughtGroudon_Text_0
+	setvar LITTLEROOT_STATE, 5
+	return
+
+
+KyogreTrigger::
+	setweather WEATHER_DOWNPOUR
+	doweather
+	call LittlerootTown_EventScript_Kyogre
+	return
+
+
+KyogreTrigger2::
+	setweather WEATHER_DOWNPOUR
+	doweather
+	applymovement OBJ_EVENT_ID_PLAYER, GoLeft
+	waitmovement 0
+	call LittlerootTown_EventScript_Kyogre
+	return
+
+
+GoLeft:
+	walk_left
+	face_up
+	step_end
+
+GoRight:
+	walk_right
+	face_up
+	step_end
+
+GroudonTrigger2::
+	setweather WEATHER_DROUGHT
+	doweather
+	call LittlerootTown_EventScript_Groudon
+	return
+
+
+GroudonTrigger1::
+	setweather WEATHER_DROUGHT
+	doweather
+	applymovement OBJ_EVENT_ID_PLAYER, GoRight
+	waitmovement 0
+	call LittlerootTown_EventScript_Groudon
+	return
+
+
+GroudonTrigger3::
+	setweather WEATHER_DROUGHT
+	doweather
+	applymovement OBJ_EVENT_ID_PLAYER, GoLeft
+	waitmovement 0
+	call LittlerootTown_EventScript_Groudon
+	return
+
+
+RayquazaTrigger1::
+	setweather WEATHER_SHADE
+	doweather
+	applymovement OBJ_EVENT_ID_PLAYER, Rayquaza1
+	waitmovement 0
+	call LittlerootTown_EventScript_Rayquaza
+	return
+
+
+RayquazaTrigger2::
+	setweather WEATHER_SHADE
+	doweather
+	applymovement OBJ_EVENT_ID_PLAYER, Rayquaza2
+	waitmovement 0
+	call LittlerootTown_EventScript_Rayquaza
+	return
+
+
+RayquazaTrigger3::
+	setweather WEATHER_SHADE
+	doweather
+	applymovement OBJ_EVENT_ID_PLAYER, Rayquaza3
+	waitmovement 0
+	call LittlerootTown_EventScript_Rayquaza
+	return
+
+
+Rayquaza1:
+	walk_down
+	walk_left
+	face_up
+	step_end
+
+Rayquaza2:
+	walk_left
+	face_up
+	step_end
+
+Rayquaza3:
+	walk_up
+	walk_left
+	face_up
+	step_end
+
+LittlerootTown_EventScript_Kyogre::
+	lockall
+	setflag B_KYOGRE_FLAG
+	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	msgbox LittlerootTown_EventScript_Kyogre_Text_0
+	delay 40
+	waitmoncry
+	call LegendaryShake
+	setwildbattle SPECIES_KYOGRE, 5, ITEM_BLUE_ORB
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Kyogre_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Kyogre_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Kyogre_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Kyogre_5
+LittlerootTown_EventScript_Kyogre_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Kyogre_2:
+	call Caught
+	goto LittlerootTown_EventScript_Kyogre_1
+
+LittlerootTown_EventScript_Kyogre_3:
+	call Won
+	goto LittlerootTown_EventScript_Kyogre_1
+
+LittlerootTown_EventScript_Kyogre_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Kyogre_1
+
+LittlerootTown_EventScript_Kyogre_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Kyogre_1
+
+
+Heres_Some_Shoes::
+	goto_if_unset FLAG_RECEIVED_RUNNING_SHOES, Heres_Some_Shoes_1
+	goto_if_set FLAG_RECEIVED_RUNNING_SHOES, Heres_Some_Shoes_2
+	return
+
+Heres_Some_Shoes_1:
+	lockall
+	call TakeTheDamnShoes
+	releaseall
+	end
+
+Heres_Some_Shoes_2:
+	releaseall
+	end
+
+
+TakeTheDamnShoes::
+	msgbox TakeTheDamnShoes_Text_0
+	waitmessage
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+	setflag FLAG_SYS_B_DASH
+	setflag FLAG_RECEIVED_RUNNING_SHOES
+	return
+
+
+LittlerootTown_EventScript_SetupRivalBattle::
+	goto_if_unset FLAG_POKEBALL_ONE, LittlerootTown_EventScript_SetupRivalBattle_3
+LittlerootTown_EventScript_SetupRivalBattle_2:
+	compare LITTLEROOT_STATE, 2
+	goto_if_eq LittlerootTown_EventScript_SetupRivalBattle_8
+	return
+
+LittlerootTown_EventScript_SetupRivalBattle_1:
+	setflag FLAG_RIVAL
+	setvar LITTLEROOT_STATE, 0
+	return
+
+LittlerootTown_EventScript_SetupRivalBattle_3:
+	goto_if_unset FLAG_POKEBALL_TWO, LittlerootTown_EventScript_SetupRivalBattle_5
+	goto LittlerootTown_EventScript_SetupRivalBattle_2
+
+LittlerootTown_EventScript_SetupRivalBattle_5:
+	goto_if_unset FLAG_POKEBALL_THREE, LittlerootTown_EventScript_SetupRivalBattle_1
+	goto LittlerootTown_EventScript_SetupRivalBattle_2
+
+LittlerootTown_EventScript_SetupRivalBattle_8:
+	clearflag FLAG_RIVAL
+	return
+
+
+LittlerootTown_EventScript_MayRivalBattle::
+	trainerbattle_single TRAINER_MAY_ROUTE_103_TORCHIC, May_Intro, May_Outro, RivalBattleOver
+	end
+
+
+RivalBattleOver::
+	lockall
+	msgbox PostBattle_May
+	applymovement 11, MayLeave
+	special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, MayLeave
+	waitmovement 0
+	opendoor 14, 8
+	waitdooranim
+	applymovement 11, MayEnterDoor
+	removeobject 11
+	closedoor 14, 8
+	waitdooranim
+	applymovement OBJ_EVENT_ID_CAMERA, PostMayCameraRevert
+	waitmovement 0
+	special RemoveCameraObject
+	setflag FLAG_RIVAL
+	setvar LITTLEROOT_STATE, 3
+	setflag B_RIVAL_SETUP_FLAG
+	releaseall
+	return
+
+
+MayLeave:
+	face_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	step_end
+
+MayEnterDoor:
+	walk_up
+	step_end
+
+PostMayCameraRevert:
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_diag_southeast
+	step_end
+
+LittlerootTown_Eventscript_BlockPath::
+	lockall
+	msgbox LittlerootTown_Eventscript_BlockPath_Text_0
+	applymovement OBJ_EVENT_ID_PLAYER, StopPlayer
+	waitmovement 0
+	releaseall
+	return
+
+
+StopPlayer:
+	walk_down
+	step_end
+
+LittlerootTown_EventScript_NewSign_Text_0:
+	.string "Go fuck yaself$"
+
+Won_Text_0:
+	.string "Good job, that's one less whale in\n"
+	.string "the world, Killer :)$"
+
+RanAway_Text_0:
+	.string "Kyuhh....$"
+
+RanAway_Text_1:
+	.string "Kyogre was allowed to live it's life.$"
+
+Caught_Text_0:
+	.string "You now have whale Jesus on your side.$"
+
+LittlerootTown_EventScript_Rayquaza_Text_0:
+	.string "OH FUCK!$"
+
+WonRayquaza_Text_0:
+	.string "That's how you handle dumbass dragons\n"
+	.string "that have lips for no reason! :)$"
+
+RanAwayRayquaza_Text_0:
+	.string "... Thanks, bro.$"
+
+RanAwayRayquaza_Text_1:
+	.string "Rayquaza is grateful.........\n"
+	.string "..................................\n"
+	.string "He'll kill you last when he returns.$"
+
+CaughtRayquaza_Text_0:
+	.string "That's a Norwegian Ridgeback!\n"
+	.string "How'd ya get it?$"
+
+LittlerootTown_EventScript_Groudon_Text_0:
+	.string "OH SHIT!$"
+
+WonGroudon_Text_0:
+	.string "Good job, You beat the shit out of\n"
+	.string "that tectonic plate :)$"
+
+RanAwayGroudon_Text_0:
+	.string "Grou...$"
+
+RanAwayGroudon_Text_1:
+	.string "Groudon gets to go home to his\n"
+	.string "volcano wife and child. You spared him$"
+
+CaughtGroudon_Text_0:
+	.string "Catch a little earthquake, put it in\n"
+	.string "your pocket... Save it for a rainy day.$"
+
+LittlerootTown_EventScript_Kyogre_Text_0:
+	.string "OH DAMN!$"
+
+TakeTheDamnShoes_Text_0:
+	.string "Oh, {PLAYER}, don't forget your shoes\n"
+	.string "by the door.$"
+
+LittlerootTown_Eventscript_BlockPath_Text_0:
+	.string "Go see the Professor, fuckface.$"
+
+May_Intro::
+	.string "WELCOME TO YOUR DARK REFLECTION, BITCH!$"
+
+May_Outro::
+	.string "Whatever. Fuckin' nerd.$"
+
+PostBattle_May::
+	.string "Smell ya later, dork. I'm gonna\n"
+	.string "go rub my butt on your pillow.$"

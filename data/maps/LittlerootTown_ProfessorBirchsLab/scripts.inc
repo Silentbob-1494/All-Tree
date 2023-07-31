@@ -750,15 +750,18 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 	.string "{PLAYER} received the POKéDEX!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "This is a POKéDEX, it's a small device\p"
+	.string "that can hold all the information\n"
+	.string "about every pokemon. So basically\l"
+	.string "it's a smart phone but worse in every way.\l"
+	.string "...................\p"
+	.string "My kid, {RIVAL}, goes everywhere with it\n"
+	.string "it's all {RIVAL} does Because {RIVAL}\l"
+	.string "has no life... Or friends :D.\p"
+	.string "In fact, when {RIVAL} finds\n"
+	.string "one and records its data in the\l"
+	.string "POKéDEX, why they look for\l"
+	.string "me and annoy the hell out of me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless POKéMON\n"

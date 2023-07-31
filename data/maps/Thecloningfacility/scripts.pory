@@ -1,0 +1,423 @@
+mapscripts Thecloningfacility_MapScripts{
+    MAP_SCRIPT_ON_TRANSITION: Thecloningfacility_EventScript_BallDefault
+}
+
+script Thecloningfacility_EventScript_BallDefault{
+    setvar(NEW_STARTERS, 0)
+}
+
+script Start_StarterChoose_Sequence{
+    lock
+    applymovement(OBJ_EVENT_ID_PLAYER, MeetBlastoise)
+    waitmovement(0)
+    msgbox(BeginAdventureText)
+    waitmessage
+    closemessage
+    applymovement(4, ProfMove)
+    waitmovement(0)
+    setvar(LITTLEROOT_STATE, 1)
+    release
+}
+ 
+script Start_StarterChoose_Sequence2{
+    lock
+    applymovement(OBJ_EVENT_ID_PLAYER, MeetBlastoise2)
+    waitmovement(0)
+    goto(Start_StarterChoose_Sequence)
+}
+ 
+movement MeetBlastoise{
+    walk_up * 4
+}
+
+movement MeetBlastoise2{
+    walk_left
+}
+
+movement ProfMove{
+    walk_up
+    walk_right *3
+    walk_up
+    walk_up
+}
+ 
+text BeginAdventureText{
+    format("Hello {PLAYER}, my name is Professor Blastoise This is my cloning facility. This is where I play god. Do you want one of my abominations? Choose wisely\p"
+    "{COLOR RED}{SHADOW LIGHT_RED}It could mean your ass if you don't.\n"
+    "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Come talk to me if you want more options.")
+}
+
+script StopLeaving{
+	lockall
+	msgbox(format("I guess you don't wanna play this game, then."))
+	applymovement(OBJ_EVENT_ID_PLAYER, DoNotLeave)
+	waitmovement(0)
+	releaseall
+}
+ 
+movement DoNotLeave{
+    walk_up
+}
+
+script Thecloningfacility_EventScript_PBlastoise{
+    if(!(flag(FLAG_POKEBALL_ONE) || flag(FLAG_POKEBALL_TWO) || flag(FLAG_POKEBALL_THREE))){
+        lock
+        faceplayer
+        message("Well, what do you want?")
+        multichoice(25, 5, MULTI_1RST_2ND_3RD_CHOICE, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(Starterfade)
+            setvar(NEW_STARTERS, 0)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(Starterfade)
+            setvar(NEW_STARTERS, 1)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(Starterfade)
+            setvar(NEW_STARTERS, 2)
+        }
+        msgbox("JEEZ, Just PICK ONE ALREADY!")
+        waitmessage
+        release
+    }
+    else{
+        if(flag(FLAG_SYS_POKEDEX_GET) && !(flag(FLAG_SYS_NATIONAL_DEX))){
+            msgbox(format("Cool. Off you fuck now. actually, wait, as a matter of fact, hang on. Take this too since you're here."))
+            call(UpgradeNationalDex)
+            msgbox(format("Alright, go run amuck, ya lil bastard :)"))
+            closemessage
+            end
+        }
+        elif(flag(FLAG_SYS_POKEDEX_GET) && (flag(FLAG_SYS_NATIONAL_DEX))){
+            msgbox(format("Alright, go run amuck, ya lil bastard :)"))
+            closemessage
+            end
+        }
+    }
+}
+
+script Starterfade{
+    fadescreen(FADE_TO_BLACK)
+    delay(20)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script Thecloningfacility_EventScript_PokeballOne{
+    lockall
+    setvar(VAR_TEMP_0, 1)
+    if(!(flag(FLAG_POKEBALL_ONE) || flag(FLAG_POKEBALL_TWO) || flag(FLAG_POKEBALL_THREE))){
+        if(var(NEW_STARTERS) == 0){
+            bufferspeciesname(STR_VAR_1, SPECIES_EEVEE)
+            setvar(STARTER_CHOICE, SPECIES_EEVEE)
+            call(Thecloningfacility_EventScript_GiveStarter_1)
+        }
+        elif(var(NEW_STARTERS) == 1){
+            bufferspeciesname(STR_VAR_1, SPECIES_VAPOREON)
+            setvar(STARTER_CHOICE, SPECIES_VAPOREON)
+            call(Thecloningfacility_EventScript_GiveStarter_1)
+        }
+        elif(var(NEW_STARTERS) == 2){
+            bufferspeciesname(STR_VAR_1, SPECIES_JOLTEON)
+            setvar(STARTER_CHOICE, SPECIES_JOLTEON)
+            call(Thecloningfacility_EventScript_GiveStarter_1)
+        }
+    }
+    else{
+        msgbox("Don't be a greedy fuck!")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script Thecloningfacility_EventScript_PokeballTwo{
+    lockall
+    setvar(VAR_TEMP_0, 2)
+    if(!(flag(FLAG_POKEBALL_ONE) || flag(FLAG_POKEBALL_TWO) || flag(FLAG_POKEBALL_THREE))){
+        if(var(NEW_STARTERS) == 0){
+            bufferspeciesname(STR_VAR_1, SPECIES_FLAREON)
+            setvar(STARTER_CHOICE, SPECIES_FLAREON)
+            call(Thecloningfacility_EventScript_GiveStarter_2)
+        }
+        elif(var(NEW_STARTERS) == 1){
+            bufferspeciesname(STR_VAR_1, SPECIES_UMBREON)
+            setvar(STARTER_CHOICE, SPECIES_UMBREON)
+            call(Thecloningfacility_EventScript_GiveStarter_2)
+        }
+        elif(var(NEW_STARTERS) == 2){
+            bufferspeciesname(STR_VAR_1, SPECIES_LEAFEON)
+            setvar(STARTER_CHOICE, SPECIES_LEAFEON)
+            call(Thecloningfacility_EventScript_GiveStarter_2)
+        }
+    }
+    else{
+        msgbox("Don't be a greedy fuck!")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script Thecloningfacility_EventScript_PokeballThree{
+    lockall
+    setvar(VAR_TEMP_0, 3)
+    if(!(flag(FLAG_POKEBALL_ONE) || flag(FLAG_POKEBALL_TWO) || flag(FLAG_POKEBALL_THREE))){
+        if(var(NEW_STARTERS) == 0){
+            bufferspeciesname(STR_VAR_1, SPECIES_SYLVEON)
+            setvar(STARTER_CHOICE, SPECIES_SYLVEON)
+            call(Thecloningfacility_EventScript_GiveStarter_3)
+        }
+        elif(var(NEW_STARTERS) == 1){
+            bufferspeciesname(STR_VAR_1, SPECIES_GLACEON)
+            setvar(STARTER_CHOICE, SPECIES_GLACEON)
+            call(Thecloningfacility_EventScript_GiveStarter_3)
+        }
+        elif(var(NEW_STARTERS) == 2){
+            bufferspeciesname(STR_VAR_1, SPECIES_ESPEON)
+            setvar(STARTER_CHOICE, SPECIES_ESPEON)
+            call(Thecloningfacility_EventScript_GiveStarter_3)
+        }
+    }
+    else{
+        msgbox("Don't be a greedy fuck!")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script Thecloningfacility_EventScript_GiveStarter_1{
+    showmonpic(STARTER_CHOICE, 10, 3)
+    msgbox(Ball_1, MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(LITTLEROOT_STATE, 2)
+        givemon(STARTER_CHOICE, 5, ITEM_LEFTOVERS)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknameBoxMon)
+            msgbox("Transferred {STR_VAR_1} to the dungeon, I mean PC")
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room.")
+        }
+        closemessage
+        call(InitiatePokedexSequence)
+    }
+    else{
+        hidemonpic
+        msgbox(Thecloningfacility_NotChosen)
+    }
+ 
+}
+
+script Thecloningfacility_EventScript_GiveStarter_2{
+    showmonpic(STARTER_CHOICE, 10, 3)
+    msgbox(Ball_2, MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(LITTLEROOT_STATE, 2)
+        givemon(STARTER_CHOICE, 5, ITEM_AMULET_COIN)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknameBoxMon)
+            msgbox("Transferred {STR_VAR_1} to the dungeon, I mean PC")
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room.")
+        }
+        closemessage
+        call(InitiatePokedexSequence)
+    }
+    else{
+        hidemonpic
+        msgbox(Thecloningfacility_NotChosen)
+    }
+ 
+}
+
+script Thecloningfacility_EventScript_GiveStarter_3{
+    showmonpic(STARTER_CHOICE, 10, 3)
+    msgbox(Ball_3, MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(LITTLEROOT_STATE, 2)
+        givemon(STARTER_CHOICE, 5, ITEM_SHELL_BELL)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknameBoxMon)
+            msgbox("Transferred {STR_VAR_1} to the dungeon, I mean PC")
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room.")
+        }
+        closemessage
+        call(InitiatePokedexSequence)
+    }
+    else{
+        hidemonpic
+        msgbox(Thecloningfacility_NotChosen)
+    }
+ 
+}
+
+text Ball_1{
+    "Do you want this little shit?"
+}
+
+text Ball_2{
+    "Perhaps I might interest you in this lil\n"
+    "fucker?"
+}
+
+text Ball_3{
+    "Do you want this one? It only murdered\n"
+    "one child."
+}
+ 
+script SetBallFlag{
+    if (var(VAR_TEMP_0) == 1){
+        setflag(FLAG_POKEBALL_ONE)
+        return
+    }
+    if (var(VAR_TEMP_0) == 2){
+        setflag(FLAG_POKEBALL_TWO)
+        return
+    }
+    if (var(VAR_TEMP_0) == 3){
+        setflag(FLAG_POKEBALL_THREE)
+        return
+    }
+}
+    
+script DontTouchThat{
+	lockall
+	msgbox("DON'T TOUCH THAT! WHAT'S WRONG WITH YOU?")
+	applymovement(OBJ_EVENT_ID_PLAYER, MoveAwayFromThere)
+	waitmovement(0)
+	releaseall
+}
+ 
+movement MoveAwayFromThere{
+    walk_left * 2
+}
+
+script NicknamePartyMon{
+    msgbox("Give this little turd a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+
+
+}
+
+script NicknameBoxMon{
+    msgbox("Give this little turd a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    msgbox("Transferred to the Dungeon, I mean PC.")
+}
+
+text Thecloningfacility_NotChosen{
+    "No? Well fuck you too, then."
+}
+
+script InitiatePokedexSequence{
+	lock
+    delay(20)
+    applymovement(OBJ_EVENT_ID_PLAYER, TurnToProf)
+    applymovement(4, MoveBallOne)    
+	waitmovement(0)
+    delay(20)
+    call(GivePokedex)
+    call(UpgradeNationalDex)
+	release
+    return
+}
+
+script GivePokedex{
+    lock
+    msgbox(TakePokedex, MSGBOX_DEFAULT)
+    playfanfare(MUS_OBTAIN_ITEM)
+	message("{PLAYER} received the POKéDEX!$")
+	waitfanfare
+    closemessage
+	setflag(FLAG_SYS_POKEDEX_GET)
+    setflag(FLAG_ADVENTURE_STARTED)
+	special(SetUnlockedPokedexFlags)
+	setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+	setvar(VAR_CABLE_CLUB_TUTORIAL_STATE, 1)
+    msgbox(LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT)
+    msgbox("Also take these with you", MSGBOX_DEFAULT)
+    giveitem(ITEM_POKE_BALL, 5)
+    msgbox(format("These allow you to trap and enslave your own Pokemon in tall grass so you can collect research for me."), MSGBOX_DEFAULT)
+    waitmessage
+    release
+	return
+}
+
+movement MoveBallOne{
+    walk_down * 2
+}
+
+movement TurnToProf{
+    face_right
+}
+
+text TakePokedex{
+    format("The other day I was thinking to myself that I should go and hunt down every pokemon and catalog it, then I thought to myself, 'why bother? I'll get some dumb kid to go do it.' And that brings me to you, {PLAYER}. If you come back without all of them I'll eat you.")
+}
+
+script UpgradeNationalDex{
+    lock
+    playfanfare(MUS_OBTAIN_ITEM)
+	message(LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational)
+	waitmessage
+    msgbox(format("I figured I might as well since you're here."))
+	waitfanfare
+	setflag(FLAG_SYS_NATIONAL_DEX)
+	special(EnableNationalPokedex)
+    closemessage
+    release
+    return
+}

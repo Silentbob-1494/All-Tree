@@ -41,17 +41,17 @@
 #define FLAG_TEMP_1F     (TEMP_FLAGS_START + 0x1F)
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
+#define GROUDON_MASTERBALL_FLAG    0x21 // Unused Flag
+#define B_SWEET_APPLE_FLAG    0x22 // Unused Flag
+#define FLAG_POKEBALL_ONE    0x20 // Unused Flag
+#define FLAG_POKEBALL_TWO    0x23 // Unused Flag
+#define FLAG_POKEBALL_THREE    0x24 // Unused Flag
+#define FLAG_RIVAL    0x25 // Unused Flag
+#define B_KYOGRE_FLAG    0x26 // Unused Flag
+#define B_MASTERBALL_FLAG    0x27 // Unused Flag
+#define B_GROUDON_FLAG    0x28 // Unused Flag
+#define B_RAYQUAZA_FLAG    0x29 // Unused Flag
+#define B_RIVAL_SETUP_FLAG    0x2A // Unused Flag
 #define FLAG_UNUSED_0x02B    0x2B // Unused Flag
 #define FLAG_UNUSED_0x02C    0x2C // Unused Flag
 #define FLAG_UNUSED_0x02D    0x2D // Unused Flag

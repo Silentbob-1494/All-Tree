@@ -1735,10 +1735,6 @@ static void Task_StartActivity(u8 taskId)
         WarpForWirelessMinigame(USING_BERRY_CRUSH, 9, 1);
         StartBerryCrush(CB2_LoadMap);
         break;
-    case ACTIVITY_BERRY_PICK:
-        WarpForWirelessMinigame(USING_MINIGAME, 5, 1);
-        StartDodrioBerryPicking(GetCursorSelectionMonId(), CB2_LoadMap);
-        break;
     }
 
     DestroyTask(taskId);
