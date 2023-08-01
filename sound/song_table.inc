@@ -712,6 +712,7 @@ gSongTable::
 	song mus_cancer, 0, 0
 	song mus_blackparade, 0, 0
 	song mus_yououghtaknow, 0, 0
+	song mus_fightsong, 0, 0
 
 	.align 2
 dummy_song_header:

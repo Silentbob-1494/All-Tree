@@ -1294,6 +1294,7 @@ SECTIONS {
         sound/songs/midi/mus_cancer.o(.rodata);
         sound/songs/midi/mus_blackparade.o(.rodata);
         sound/songs/midi/mus_yououghtaknow.o(.rodata);
+        sound/songs/midi/mus_fightsong.o(.rodata);
         sound/songs/midi/ph_trap_blend.o(.rodata);
         sound/songs/midi/ph_trap_held.o(.rodata);
         sound/songs/midi/ph_trap_solo.o(.rodata);

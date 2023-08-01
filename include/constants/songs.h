@@ -645,6 +645,7 @@
 #define MUS_CANCER                  708
 #define MUS_BLACKPARADE             709
 #define MUS_YOUOUGHTAKNOW           710
+#define MUS_FIGHTSONG               711
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -936,6 +936,9 @@ $(MID_SUBDIR)/mus_blackparade.s: %.s: %.mid
 $(MID_SUBDIR)/mus_yououghtaknow.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
 
+$(MID_SUBDIR)/mus_fightsong.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
 
