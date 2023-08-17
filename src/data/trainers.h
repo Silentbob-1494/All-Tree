@@ -4765,12 +4765,12 @@ const struct Trainer gTrainers[] = {
         .party = ITEM_DEFAULT_MOVES(sParty_Nicolas5),
     },
 
-    [TRAINER_AARON] =
+    [TRAINER_ARYA] =
     {
         .trainerClass = TRAINER_CLASS_DRAGON_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
-        .trainerName = _("ARIA"),
+        .trainerName = _("ARYA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
