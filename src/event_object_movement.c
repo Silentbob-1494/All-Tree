@@ -176,8 +176,6 @@ const u8 gReflectionEffectPaletteMap[16] = {
         [PALSLOT_NPC_2]                  = PALSLOT_NPC_2_REFLECTION,
         [PALSLOT_NPC_3]                  = PALSLOT_NPC_3_REFLECTION,
         [PALSLOT_NPC_4]                  = PALSLOT_NPC_4_REFLECTION,
-        [PALSLOT_WALLACE]                = PALSLOT_WALLACE_REF,
-        [PALSLOT_WALLACE_REF]            = PALSLOT_WALLACE_REF,
         [PALSLOT_NPC_1_REFLECTION]       = PALSLOT_NPC_1_REFLECTION,
         [PALSLOT_NPC_2_REFLECTION]       = PALSLOT_NPC_2_REFLECTION,
         [PALSLOT_NPC_3_REFLECTION]       = PALSLOT_NPC_3_REFLECTION,
@@ -454,8 +452,6 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_LUGIA                   0x1121
 #define OBJ_EVENT_PAL_TAG_RS_BRENDAN              0x1122
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
-#define OBJ_EVENT_WALLACE                         0x1124
-#define OBJ_EVENT_WALLACE_REF                     0x1125
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -471,8 +467,6 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
     {gObjectEventPal_Npc3,                  OBJ_EVENT_PAL_TAG_NPC_3},
     {gObjectEventPal_Npc4,                  OBJ_EVENT_PAL_TAG_NPC_4},
-    {gObjectEventPal_wallacereflection,     OBJ_EVENT_WALLACE_REF},
-    {gObjectEventPal_wallace,               OBJ_EVENT_WALLACE},
     {gObjectEventPal_Npc1Reflection,        OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION},
     {gObjectEventPal_Npc2Reflection,        OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION},
     {gObjectEventPal_Npc3Reflection,        OBJ_EVENT_PAL_TAG_NPC_3_REFLECTION},
@@ -641,8 +635,6 @@ static const u16 sObjectPaletteTags0[] = {
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3,
     [PALSLOT_NPC_4]             = OBJ_EVENT_PAL_TAG_NPC_4,
-    [PALSLOT_WALLACE]           = OBJ_EVENT_WALLACE,
-    [PALSLOT_WALLACE_REF]       = OBJ_EVENT_WALLACE_REF,
     [PALSLOT_NPC_1_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION,
     [PALSLOT_NPC_2_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION,
     [PALSLOT_NPC_3_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_3_REFLECTION,
@@ -656,8 +648,6 @@ static const u16 sObjectPaletteTags1[] = {
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3,
     [PALSLOT_NPC_4]             = OBJ_EVENT_PAL_TAG_NPC_4,
-    [PALSLOT_WALLACE]           = OBJ_EVENT_WALLACE,
-    [PALSLOT_WALLACE_REF]       = OBJ_EVENT_WALLACE_REF,
     [PALSLOT_NPC_1_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION,
     [PALSLOT_NPC_2_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION,
     [PALSLOT_NPC_3_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_3_REFLECTION,
@@ -671,8 +661,6 @@ static const u16 sObjectPaletteTags2[] = {
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3,
     [PALSLOT_NPC_4]             = OBJ_EVENT_PAL_TAG_NPC_4,
-    [PALSLOT_WALLACE]           = OBJ_EVENT_WALLACE,
-    [PALSLOT_WALLACE_REF]       = OBJ_EVENT_WALLACE_REF,
     [PALSLOT_NPC_1_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION,
     [PALSLOT_NPC_2_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION,
     [PALSLOT_NPC_3_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_3_REFLECTION,
@@ -686,8 +674,6 @@ static const u16 sObjectPaletteTags3[] = {
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3,
     [PALSLOT_NPC_4]             = OBJ_EVENT_PAL_TAG_NPC_4,
-    [PALSLOT_WALLACE]           = OBJ_EVENT_WALLACE,
-    [PALSLOT_WALLACE_REF]       = OBJ_EVENT_WALLACE_REF,
     [PALSLOT_NPC_1_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_1_REFLECTION,
     [PALSLOT_NPC_2_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_2_REFLECTION,
     [PALSLOT_NPC_3_REFLECTION]  = OBJ_EVENT_PAL_TAG_NPC_3_REFLECTION,
