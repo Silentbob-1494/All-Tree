@@ -7542,7 +7542,7 @@ static void Cmd_yesnoboxstoplearningmove(void)
         {
             PlaySE(SE_SELECT);
 
-            if (gBattleCommunication[1] != 0)
+            if (gBattleCommunication[1] == 0)
                 gBattlescriptCurrInstr = cmd->noInstr;
             else
                 gBattlescriptCurrInstr = cmd->nextInstr;
@@ -16129,7 +16129,7 @@ static void Cmd_tryworryseed(void)
     if (IsWorrySeedBannedAbility(gBattleMons[gBattlerTarget].ability))
     {
         RecordAbilityBattle(gBattlerTarget, gBattleMons[gBattlerTarget].ability);
-        gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
+        gBattlescriptCurrInstr += 5;
         gBattlescriptCurrInstr = cmd->failInstr;
     }
     else if (GetBattlerHoldEffect(gBattlerTarget, TRUE) == HOLD_EFFECT_ABILITY_SHIELD)
