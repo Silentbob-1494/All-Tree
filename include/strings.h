@@ -53,6 +53,9 @@ extern const u8 gText_Key_Items[];
 extern const u8 gText_Poke_Balls[];
 extern const u8 gText_TMs_Hms[];
 extern const u8 gText_Berries2[];
+extern const u8 gText_Medicine[];
+extern const u8 gText_BattleItems[];
+extern const u8 gText_Treasures[];
 
 extern const u8 gText_Single2[];
 extern const u8 gText_Double2[];
@@ -405,6 +408,19 @@ extern const u8 gText_PressAToLoadEvent[];
 extern const u8 gText_LoadingEvent[];
 extern const u8 gText_DontRemoveCableTurnOff[];
 extern const u8 gText_LinkStandby2[];
+
+// berry tag screen text
+extern const u8 gBerryFirmnessString_VerySoft[];
+extern const u8 gBerryFirmnessString_Soft[];
+extern const u8 gBerryFirmnessString_Hard[];
+extern const u8 gBerryFirmnessString_VeryHard[];
+extern const u8 gBerryFirmnessString_SuperHard[];
+extern const u8 gText_BerryTag[];
+extern const u8 gText_NumberVar1Var2[];
+extern const u8 gText_SizeSlash[];
+extern const u8 gText_Var1DotVar2[];
+extern const u8 gText_ThreeMarks[];
+extern const u8 gText_FirmSlash[];
 
 // item menu screen text
 extern const u8 gText_CloseBag[];

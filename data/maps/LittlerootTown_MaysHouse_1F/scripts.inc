@@ -323,10 +323,10 @@ LittlerootTown_MaysHouse_1F_Movement_MayGoUpstairs2:
 	step_end
 
 RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
-	.string "Hi, who are you and\p"
-	.string "have you heard about\n"
-	.string "this cool thing called knocking?\n"
-	.string "… … … … … … … … …\n"
+	.string "Hi, who are you? And have you\n"
+	.string "heard about this cool thing?\l"
+	.string "It's called knocking.\l"
+	.string "… … … … … … … … …\l"
 	.string "… … … … … … … … …\p"
 	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
 	.string "neighbor!... Hi!\p"

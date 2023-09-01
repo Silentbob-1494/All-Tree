@@ -1196,6 +1196,17 @@ static void SetBerrySpriteData(struct Sprite *sprite, s16 x, s16 y, s16 bounceSp
 #undef sXSpeed
 #undef sYDownSpeed
 
+static void CreateBerrySprite(u16 itemId, u8 playerId)
+{
+    u8 spriteId = CreateSpinningBerrySprite(ITEM_TO_BERRY(itemId) - 1, 0, 80, playerId & 1);
+    SetBerrySpriteData(&gSprites[spriteId],
+                        sBerrySpriteData[playerId][0],
+                        sBerrySpriteData[playerId][1],
+                        sBerrySpriteData[playerId][2],
+                        sBerrySpriteData[playerId][3],
+                        sBerrySpriteData[playerId][4]);
+}
+
 static void ConvertItemToBlenderBerry(struct BlenderBerry* berry, u16 itemId)
 {
     const struct Berry *berryInfo = GetBerryInfo(ITEM_TO_BERRY(itemId));
@@ -1377,6 +1388,16 @@ static void CB2_StartBlenderLink(void)
     case 11:
         sBerryBlender->numPlayers = GetLinkPlayerCount();
 
+        // Throw 1 player's berry in
+        for (i = 0; i < BLENDER_MAX_PLAYERS; i++)
+        {
+            if (sBerryBlender->playerToThrowBerry == sPlayerIdMap[sBerryBlender->numPlayers - 2][i])
+            {
+                CreateBerrySprite(sBerryBlender->chosenItemId[sBerryBlender->playerToThrowBerry], i);
+                break;
+            }
+        }
+
         sBerryBlender->framesToWait = 0;
         sBerryBlender->mainState++;
         sBerryBlender->playerToThrowBerry++;
@@ -1525,7 +1546,7 @@ static void SetOpponentsBerryData(u16 playerBerryItemId, u8 playersNum, struct B
     u16 berryMasterDiff;
     u16 i;
 
-    if (playerBerryItemId == ITEM_ENIGMA_BERRY_E_READER)
+    if (playerBerryItemId == ITEM_ENIGMA_BERRY)
     {
         for (i = 0; i < FLAVOR_COUNT; i++)
         {
@@ -1668,6 +1689,13 @@ static void CB2_StartBlenderLocal(void)
     case 11:
         for (i = 0; i < BLENDER_MAX_PLAYERS; i++)
         {
+            // Throw 1 player's berry in
+            u32 playerId = sPlayerIdMap[sBerryBlender->numPlayers - 2][i];
+            if (sBerryBlender->playerToThrowBerry == playerId)
+            {
+                CreateBerrySprite(sBerryBlender->chosenItemId[sBerryBlender->playerToThrowBerry], i);
+                break;
+            }
         }
         sBerryBlender->framesToWait = 0;
         sBerryBlender->mainState++;
@@ -2266,7 +2294,7 @@ static u32 CalculatePokeblockColor(struct BlenderBerry* berries, s16 *_flavors, 
         for (j = 0; j < numPlayers; j++)
         {
             if (berries[i].itemId == berries[j].itemId && i != j
-                && (berries[i].itemId != ITEM_ENIGMA_BERRY_E_READER || AreBlenderBerriesSame(berries, i, j)))
+                && (berries[i].itemId != ITEM_ENIGMA_BERRY || AreBlenderBerriesSame(berries, i, j)))
                     return PBLOCK_CLR_BLACK;
         }
     }

@@ -17,6 +17,9 @@ void RemoveBagItemIconSprite(u8 id);
 void CreateItemMenuSwapLine(void);
 void SetItemMenuSwapLineInvisibility(bool8 invisible);
 void UpdateItemMenuSwapLinePos(u8 y);
+u8 CreateBerryTagSprite(u8 id, s16 x, s16 y);
+void FreeBerryTagSpritePalette(void);
+u8 CreateSpinningBerrySprite(u8 berryId, u8 x, u8 y, bool8 startAffine);
 u8 CreateBerryFlavorCircleSprite(s16 x);
 
 #endif // GUARD_ITEM_MENU_ICONS_H
