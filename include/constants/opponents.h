@@ -398,7 +398,7 @@
 #define TRAINER_NICOLAS_3                   394
 #define TRAINER_NICOLAS_4                   395
 #define TRAINER_NICOLAS_5                   396
-#define TRAINER_ARYA                       397
+#define TRAINER_ARYA                        397
 #define TRAINER_PERRY                       398
 #define TRAINER_HUGH                        399
 #define TRAINER_PHIL                        400
