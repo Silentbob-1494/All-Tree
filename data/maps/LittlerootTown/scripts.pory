@@ -1190,6 +1190,22 @@ script CaughtGroudon{
 	return
 }
 
+script Test_OBJ_EVENT_muhfucka {
+	lockall
+	applymovement(13, Test_OBJ_Move)
+	msgbox(OBJ_Says)
+	waitmessage
+	releaseall
+}
+
+text OBJ_Says{
+	"Yo. What's crackin'?"
+}
+
+movement Test_OBJ_Move{
+	face_player
+}
+
 script KyogreTrigger {
 	setweather(WEATHER_DOWNPOUR)
 	doweather

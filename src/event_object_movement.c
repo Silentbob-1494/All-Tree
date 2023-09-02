@@ -440,6 +440,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_RAYQUAZA                0x1124
 #define OBJ_EVENT_PAL_TAG_WALLACE_REF             0x1125
+#define OBJ_EVENT_PAL_TAG_WALLY                   0x1126
+#define OBJ_EVENT_PAL_TAG_GROUDON_2               0x1127
+#define OBJ_EVENT_PAL_TAG_KYOGRE_2                0x1128
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 
@@ -489,6 +492,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
     {gObjectEventPal_wallace_ref,           OBJ_EVENT_PAL_TAG_WALLACE_REF},
     {gObjectEventPal_wallace,               OBJ_EVENT_PAL_TAG_RAYQUAZA},
+    {gObjectEventPal_wally,                 OBJ_EVENT_PAL_TAG_WALLY},
+    {gObjectEventPal_Kyogre2,               OBJ_EVENT_PAL_TAG_KYOGRE_2},
+    {gObjectEventPal_Groudon2,              OBJ_EVENT_PAL_TAG_GROUDON_2},
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else

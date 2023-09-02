@@ -1211,6 +1211,19 @@ CaughtGroudon::
 	return
 
 
+Test_OBJ_EVENT_muhfucka::
+	lockall
+	applymovement 13, Test_OBJ_Move
+	msgbox OBJ_Says
+	waitmessage
+	releaseall
+	return
+
+
+Test_OBJ_Move:
+	face_player
+	step_end
+
 KyogreTrigger::
 	setweather WEATHER_DOWNPOUR
 	doweather
@@ -1535,6 +1548,9 @@ TakeTheDamnShoes_Text_0:
 
 LittlerootTown_Eventscript_BlockPath_Text_0:
 	.string "Go see the Professor, fuckface.$"
+
+OBJ_Says::
+	.string "Yo. What's crackin'?$"
 
 May_Intro::
 	.string "WELCOME TO YOUR DARK REFLECTION, BITCH!$"
