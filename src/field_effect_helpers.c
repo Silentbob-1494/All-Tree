@@ -132,7 +132,7 @@ void LoadSpecialReflectionPalette(struct Sprite *sprite)
 	}
 	reflectionPalette.data = gReflectionPaletteBuffer;
 	reflectionPalette.tag = GetSpritePaletteTagByPaletteNum(sprite->oam.paletteNum) + 0x1000;
-	LoadSpritePalette(&reflectionPalette);
+	LoadSpritePaletteDayNight(&reflectionPalette);
 	sprite->oam.paletteNum = IndexOfSpritePaletteTag(reflectionPalette.tag);
 	UpdatePaletteColorMapType(sprite->oam.paletteNum, COLOR_MAP_CONTRAST);
 	UpdateSpritePaletteWithWeather(sprite->oam.paletteNum);
@@ -231,7 +231,7 @@ void ShowWarpArrowSprite(u8 spriteId, u8 direction, s16 x, s16 y)
         sprite->invisible = FALSE;
         sprite->data[0] = x;
         sprite->data[1] = y;
-        sprite->oam.paletteNum = LoadSpritePalette(&gSpritePalette_ArrowEmotionsFieldEffect);
+        sprite->oam.paletteNum = LoadSpritePaletteDayNight(&gSpritePalette_ArrowEmotionsFieldEffect);
         StartSpriteAnim(sprite, direction - 1);
     }
 }
