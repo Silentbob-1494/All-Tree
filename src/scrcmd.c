@@ -10,6 +10,7 @@
 #include "data.h"
 #include "decoration.h"
 #include "decoration_inventory.h"
+#include "day_night.h"
 #include "event_data.h"
 #include "field_door.h"
 #include "field_effect.h"
@@ -49,7 +50,6 @@
 #include "tv.h"
 #include "window.h"
 #include "constants/event_objects.h"
-#include "day_night.h"
 
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(void);

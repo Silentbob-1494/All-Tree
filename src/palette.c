@@ -1,11 +1,11 @@
 #include "global.h"
+#include "day_night.h"
 #include "palette.h"
 #include "util.h"
 #include "decompress.h"
 #include "gpu_regs.h"
 #include "task.h"
 #include "constants/rgb.h"
-#include "day_night.h"
 #include "constants/day_night.h"
 
 enum
