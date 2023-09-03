@@ -23,6 +23,7 @@ enum {
     PALSLOT_NPC_SPECIAL_REFLECTION,
     PALSLOT_WALLACE_REF,
     PALSLOT_RAYQUAZA,
+    PALSLOT_WALLY,
     OBJ_PALSLOT_COUNT
     // the remaining sprite palette slots (12-15) are used by field effects, the interface, etc.
 };
