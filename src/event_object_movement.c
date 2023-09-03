@@ -140,7 +140,7 @@ static void RemoveObjectEventIfOutsideView(struct ObjectEvent *);
 static void SpawnObjectEventOnReturnToField(u8, s16, s16);
 static void SetPlayerAvatarObjectEventIdAndObjectId(u8, u8);
 static void ResetObjectEventFldEffData(struct ObjectEvent *);
-static u8 LoadSpritePaletteIfTagExists(const struct SpritePalette *);
+static u8 LoadSpritePaletteDayNightIfTagExists(const struct SpritePalette *);
 static u8 FindObjectEventPaletteIndexByTag(u16);
 static void _PatchObjectPalette(u16, u8);
 static bool8 ObjectEventDoesElevationMatch(struct ObjectEvent *, u8);
@@ -1790,7 +1790,7 @@ void LoadObjectEventPalette(u16 paletteTag)
 #else
     if (i != OBJ_EVENT_PAL_TAG_NONE)
 #endif
-        LoadSpritePaletteIfTagExists(&sObjectEventSpritePalettes[i]);
+        LoadSpritePaletteDayNightIfTagExists(&sObjectEventSpritePalettes[i]);
 }
 
 // Unused
@@ -1803,7 +1803,7 @@ static void LoadObjectEventPaletteSet(u16 *paletteTags)
 }
 
 // NOTE: Does not use LoadSpritePaletteDayNight because of naming screen
-static u8 LoadSpritePaletteIfTagExists(const struct SpritePalette *spritePalette)
+static u8 LoadSpritePaletteDayNightIfTagExists(const struct SpritePalette *spritePalette)
 {
     if (IndexOfSpritePaletteTag(spritePalette->tag) != 0xFF)
         return 0xFF;
