@@ -26,6 +26,7 @@ enum {
     PALSLOT_WALLY,
     PALSLOT_KYOGRE,
     PALSLOT_GROUDON,
+    PALSLOT_BLACK_BELT,
     OBJ_PALSLOT_COUNT
     // the remaining sprite palette slots (12-15) are used by field effects, the interface, etc.
 };
