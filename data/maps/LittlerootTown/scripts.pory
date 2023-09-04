@@ -1066,7 +1066,7 @@ script LittlerootTown_EventScript_Rayquaza {
 	delay(40)
 	waitmoncry
 	call(LegendaryShake)
-	setwildbattle(SPECIES_RAYQUAZA, 5, ITEM_MASTER_BALL)
+	setwildbattle(SPECIES_RAYQUAZA, 1, ITEM_MASTER_BALL)
 	dowildbattle
 	specialvar(VAR_RESULT, GetBattleOutcome)
 	if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
@@ -1127,7 +1127,7 @@ script LittlerootTown_EventScript_Groudon {
 	delay(40)
 	waitmoncry
 	call(LegendaryShake)
-	setwildbattle(SPECIES_GROUDON, 5, ITEM_RED_ORB)
+	setwildbattle(SPECIES_GROUDON, 1, ITEM_RED_ORB)
 	dowildbattle
 	specialvar(VAR_RESULT, GetBattleOutcome)
 	if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
@@ -1220,6 +1220,27 @@ script KyogreTrigger2 {
 	call(LittlerootTown_EventScript_Kyogre)
 }
 
+script Test_OBJ_EVENT_muhfucka {
+	lockall
+	applymovement(13, Test_OBJ_Move)
+	waitmovement(0)
+	msgbox(OBJ_Says)
+	waitmessage
+	releaseall
+}
+
+text OBJ_Says{
+	"Yo. What's crackin'?"
+}
+
+movement Test_OBJ_Move{
+	walk_left*2
+	walk_up*2
+	walk_right*2
+	walk_down*2
+	face_player
+}
+
 movement GoLeft {
 	walk_left
 	face_up
@@ -1302,7 +1323,7 @@ script LittlerootTown_EventScript_Kyogre {
 	delay(40)
 	waitmoncry
 	call(LegendaryShake)
-	setwildbattle(SPECIES_KYOGRE, 5, ITEM_BLUE_ORB)
+	setwildbattle(SPECIES_KYOGRE, 1, ITEM_BLUE_ORB)
 	dowildbattle
 	specialvar(VAR_RESULT, GetBattleOutcome)
 	if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){

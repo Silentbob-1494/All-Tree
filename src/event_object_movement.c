@@ -441,8 +441,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_RAYQUAZA                0x1124
 #define OBJ_EVENT_PAL_TAG_WALLACE_REF             0x1125
 #define OBJ_EVENT_PAL_TAG_WALLY                   0x1126
-#define OBJ_EVENT_PAL_TAG_GROUDON_2               0x1127
-#define OBJ_EVENT_PAL_TAG_KYOGRE_2                0x1128
+#define OBJ_EVENT_PAL_TAG_KYOGRE2                 0x1127
+#define OBJ_EVENT_PAL_TAG_GROUDON2                0x1128
+#define OBJ_EVENT_PAL_TAG_BLACK_BELT              0x1129
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 
@@ -493,8 +494,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_wallace_ref,           OBJ_EVENT_PAL_TAG_WALLACE_REF},
     {gObjectEventPal_wallace,               OBJ_EVENT_PAL_TAG_RAYQUAZA},
     {gObjectEventPal_wally,                 OBJ_EVENT_PAL_TAG_WALLY},
-    {gObjectEventPal_Kyogre2,               OBJ_EVENT_PAL_TAG_KYOGRE_2},
-    {gObjectEventPal_Groudon2,              OBJ_EVENT_PAL_TAG_GROUDON_2},
+    {gObjectEventPal_Kyogre2,               OBJ_EVENT_PAL_TAG_KYOGRE2},
+    {gObjectEventPal_Groudon2,              OBJ_EVENT_PAL_TAG_GROUDON2},
+    {gObjectEventPal_blackbelt,            OBJ_EVENT_PAL_TAG_BLACK_BELT},
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
