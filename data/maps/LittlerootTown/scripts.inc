@@ -1065,7 +1065,7 @@ LittlerootTown_EventScript_Rayquaza::
 	delay 40
 	waitmoncry
 	call LegendaryShake
-	setwildbattle SPECIES_RAYQUAZA, 5, ITEM_MASTER_BALL
+	setwildbattle SPECIES_RAYQUAZA, 1, ITEM_MASTER_BALL
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
@@ -1136,7 +1136,7 @@ LittlerootTown_EventScript_Groudon::
 	delay 40
 	waitmoncry
 	call LegendaryShake
-	setwildbattle SPECIES_GROUDON, 5, ITEM_RED_ORB
+	setwildbattle SPECIES_GROUDON, 1, ITEM_RED_ORB
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
@@ -1336,7 +1336,7 @@ LittlerootTown_EventScript_Kyogre::
 	delay 40
 	waitmoncry
 	call LegendaryShake
-	setwildbattle SPECIES_KYOGRE, 5, ITEM_BLUE_ORB
+	setwildbattle SPECIES_KYOGRE, 1, ITEM_BLUE_ORB
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT

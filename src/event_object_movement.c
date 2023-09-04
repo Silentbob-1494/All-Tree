@@ -444,6 +444,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_KYOGRE2                 0x1127
 #define OBJ_EVENT_PAL_TAG_GROUDON2                0x1128
 #define OBJ_EVENT_PAL_TAG_BLACK_BELT              0x1129
+#define OBJ_EVENT_PAL_TAG_SAILOR                  0x1130
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 
@@ -496,7 +497,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_wally,                 OBJ_EVENT_PAL_TAG_WALLY},
     {gObjectEventPal_Kyogre2,               OBJ_EVENT_PAL_TAG_KYOGRE2},
     {gObjectEventPal_Groudon2,              OBJ_EVENT_PAL_TAG_GROUDON2},
-    {gObjectEventPal_blackbelt,            OBJ_EVENT_PAL_TAG_BLACK_BELT},
+    {gObjectEventPal_blackbelt,             OBJ_EVENT_PAL_TAG_BLACK_BELT},
+    {gObjectEventPal_Sailor,                OBJ_EVENT_PAL_TAG_SAILOR},
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
