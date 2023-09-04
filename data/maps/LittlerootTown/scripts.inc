@@ -1230,6 +1230,7 @@ KyogreTrigger2::
 Test_OBJ_EVENT_muhfucka::
 	lockall
 	applymovement 13, Test_OBJ_Move
+	waitmovement 0
 	msgbox OBJ_Says
 	waitmessage
 	releaseall
@@ -1237,6 +1238,14 @@ Test_OBJ_EVENT_muhfucka::
 
 
 Test_OBJ_Move:
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	walk_right
+	walk_right
+	walk_down
+	walk_down
 	face_player
 	step_end
 

@@ -1207,6 +1207,7 @@ script KyogreTrigger2 {
 script Test_OBJ_EVENT_muhfucka {
 	lockall
 	applymovement(13, Test_OBJ_Move)
+	waitmovement(0)
 	msgbox(OBJ_Says)
 	waitmessage
 	releaseall
@@ -1217,6 +1218,10 @@ text OBJ_Says{
 }
 
 movement Test_OBJ_Move{
+	walk_left*2
+	walk_up*2
+	walk_right*2
+	walk_down*2
 	face_player
 }
 
