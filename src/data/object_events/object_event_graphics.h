@@ -72,6 +72,7 @@ const u16 gObjectEventPal_blackbelt[] = INCBIN_U16("graphics/object_events/palet
 const u16 gObjectEventPal_Sailor[] = INCBIN_U16("graphics/object_events/palettes/Sailor.gbapal");
 const u16 gObjectEventPal_PsychicM[] = INCBIN_U16("graphics/object_events/palettes/psychic_m.gbapal");
 const u16 gObjectEventPal_PsychicF[] = INCBIN_U16("graphics/object_events/palettes/psychic_f.gbapal");
+const u16 gObjectEventPal_Birch[] = INCBIN_U16("graphics/object_events/palettes/Birch.gbapal");
 const u16 gObjectEventPal_wallace_ref[] = INCBIN_U16("graphics/object_events/palettes/wallace_ref.gbapal");
 const u16 gObjectEventPal_Npc1Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_1_reflection.gbapal");
 const u16 gObjectEventPal_Npc2Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_2_reflection.gbapal");
