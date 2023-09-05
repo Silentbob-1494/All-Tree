@@ -28,6 +28,8 @@ enum {
     PALSLOT_GROUDON,
     PALSLOT_BLACK_BELT,
     PALSLOT_SAILOR,
+    PALSLOT_PSYCHIC_M,
+    PALSLOT_PSYCHIC_F,
     OBJ_PALSLOT_COUNT
     // the remaining sprite palette slots (12-15) are used by field effects, the interface, etc.
 };
