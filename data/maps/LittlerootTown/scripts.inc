@@ -1211,18 +1211,8 @@ CaughtGroudon::
 	return
 
 
-Test_OBJ_EVENT_muhfucka::
-	lockall
-	applymovement 13, Test_OBJ_Move
-	msgbox OBJ_Says
-	waitmessage
-	releaseall
-	return
 
 
-Test_OBJ_Move:
-	face_player
-	step_end
 
 KyogreTrigger::
 	setweather WEATHER_DOWNPOUR
