@@ -31,6 +31,10 @@ enum {
     PALSLOT_PSYCHIC_M,
     PALSLOT_PSYCHIC_F,
     PALSLOT_BIRCH,
+    PALSLOT_NINJA,
+    PALSLOT_MYSTERY,
+    PALSLOT_MOM,
+    PALSLOT_SHOPKEEP,
     OBJ_PALSLOT_COUNT
     // the remaining sprite palette slots (12-15) are used by field effects, the interface, etc.
 };
