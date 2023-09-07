@@ -7552,7 +7552,7 @@ static void Cmd_yesnoboxstoplearningmove(void)
         else if (JOY_NEW(B_BUTTON))
         {
             PlaySE(SE_SELECT);
-            gBattlescriptCurrInstr = cmd->noInstr;
+            gBattlescriptCurrInstr += 5;
             HandleBattleWindow(YESNOBOX_X_Y, WINDOW_CLEAR);
         }
         break;
@@ -16129,7 +16129,7 @@ static void Cmd_tryworryseed(void)
     if (IsWorrySeedBannedAbility(gBattleMons[gBattlerTarget].ability))
     {
         RecordAbilityBattle(gBattlerTarget, gBattleMons[gBattlerTarget].ability);
-        gBattlescriptCurrInstr += 5;
+        gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
         gBattlescriptCurrInstr = cmd->failInstr;
     }
     else if (GetBattlerHoldEffect(gBattlerTarget, TRUE) == HOLD_EFFECT_ABILITY_SHIELD)
