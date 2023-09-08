@@ -63,7 +63,7 @@ Littleroot_Mart::
 .2byte ITEM_POWER_GLOVE
 .2byte ITEM_LANTERN
 .2byte ITEM_DIVING_SUIT
-.2byte ITEM_HAMMER
+.2byte ITEM_BIG_ASS_HAMMER
 .2byte ITEM_AXE
 .2byte ITEM_SURFBOARD
 .2byte ITEM_AGGRONITE
@@ -80,8 +80,9 @@ Littleroot_Mart::
 .2byte ITEM_CATCHING_CHARM
 .2byte ITEM_MACH_BIKE
 .2byte ITEM_ACRO_BIKE
-.2byte ITEM_BICYCLE
-	@@ -123,7 +86,7 @@ release
+.2byte ITEM_MAX_POTION
+.2byte ITEM_NONE
+release
 end
 
 Littleroot_Mart_Employee_Text_0:

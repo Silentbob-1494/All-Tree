@@ -3207,10 +3207,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Axe,
     },
 
-	[ITEM_HAMMER] =
+	[ITEM_BIG_ASS_HAMMER] =
     {
         .name = _("Bigass Hammer"),
-        .itemId = ITEM_HAMMER,
+        .itemId = ITEM_BIG_ASS_HAMMER,
         .price = 0,
 		.importance = 1,
         .description = sHammerDesc,

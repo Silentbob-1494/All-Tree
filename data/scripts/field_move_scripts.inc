@@ -48,7 +48,7 @@ Text_CantCut:
 @ Interact with smashable rock
 EventScript_RockSmash::
 	lockall
-	checkitem ITEM_HAMMER, 1
+	checkitem ITEM_BIG_ASS_HAMMER, 1
 	goto_if_eq VAR_RESULT, 0, EventScript_CantSmashRock
 	msgbox Text_WantToSmash, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_CancelSmash

@@ -273,7 +273,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     // HM Items
     [ITEM_SURFBOARD] = {gItemIcon_EarthPlate, gItemIconPalette_EarthPlate},
 	[ITEM_AXE] = {gItemIcon_ToxicPlate, gItemIconPalette_ToxicPlate},
-	[ITEM_HAMMER] = {gItemIcon_SkyPlate, gItemIconPalette_SkyPlate},
+	[ITEM_BIG_ASS_HAMMER] = {gItemIcon_SkyPlate, gItemIconPalette_SkyPlate},
 	[ITEM_DIVING_SUIT] = {gItemIcon_MindPlate, gItemIconPalette_MindPlate},
 	[ITEM_LANTERN] = {gItemIcon_InsectPlate, gItemIconPalette_InsectPlate},
 	[ITEM_POWER_GLOVE] = {gItemIcon_StonePlate, gItemIconPalette_StonePlate},
