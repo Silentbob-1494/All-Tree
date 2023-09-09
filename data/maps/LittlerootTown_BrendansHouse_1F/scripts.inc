@@ -420,7 +420,8 @@ PlayersHouse_1F_Text_DadShouldStayLonger:
 
 PlayersHouse_1F_Text_NuzlockeIsOver:
 	.string "Also, you completed the Nuzlocke\n"
-	.string "challenge. It's over. Congrats!$"
+	.string "challenge. It's over. Congrats!\l"
+	.string "(Throws confetti)$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
 	.string "MOM: Is that a breaking news story?$"
