@@ -881,6 +881,13 @@ gText_UnusedNicknameReceivedPokemon::
 	.string "Want to give a nickname to\n"
 	.string "the {STR_VAR_2} you received?$"
 
+gText_PlayerNuzlockeFailed::
+	.string "{PLAYER} failed the\n"
+	.string "Nuzlocke challenge.\l"
+	.string "Ya punk ass bitch.\n"
+	.string "The Nuzlocke setting\l"
+	.string "has been turned off.$"
+
 gText_PlayerWhitedOut::
 	.string "{PLAYER} is out of usable\n"
 	.string "POKéMON!\p{PLAYER} whited out!$"

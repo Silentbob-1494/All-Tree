@@ -3783,6 +3783,16 @@ static void DoBattleIntro(void)
     }
 }
 
+static void BattleLostNuzlocke(void)
+{
+    if (gBattleControllerExecFlags == 0)
+    {
+        gBattleMainFunc = HandleEndTurn_FinishBattle;
+        PrepareStringBattle(STRINGID_NUZLOCKELOST, 0);
+        FlagClear(FLAG_NUZLOCKE);
+    }
+}
+
 static void TryDoEventsBeforeFirstTurn(void)
 {
     s32 i, j;
@@ -5318,6 +5328,10 @@ static void HandleEndTurn_BattleLost(void)
     else
     {
         gBattlescriptCurrInstr = BattleScript_LocalBattleLost;
+        if (FlagGet(FLAG_NUZLOCKE) && FlagGet(FLAG_SYS_POKEDEX_GET)){
+            gBattleMainFunc = BattleLostNuzlocke;
+            return;
+        }
     }
 
     gBattleMainFunc = HandleEndTurn_FinishBattle;

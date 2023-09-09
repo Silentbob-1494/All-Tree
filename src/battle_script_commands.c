@@ -4023,6 +4023,10 @@ static void Cmd_tryfaintmon(void)
             gBattlescriptCurrInstr = instr;
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
+                if (FlagGet(FLAG_NUZLOCKE) && FlagGet(FLAG_SYS_POKEDEX_GET)){
+                    bool8 dead = TRUE;
+                    SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
+                }
                 gHitMarker |= HITMARKER_PLAYER_FAINTED;
                 if (gBattleResults.playerFaintCounter < 255)
                     gBattleResults.playerFaintCounter++;
