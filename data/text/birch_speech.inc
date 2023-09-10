@@ -3,9 +3,8 @@ gText_Birch_Welcome::
 	.string "Welcome to the game!\p"
 	.string "You just lost, lol.\p"
 	.string "My name is Birch, but\n"
-	.string "everyone calls me sex machine for\p"
-	.string "Some reason.\p"
-	.string "Anywho.\p"
+	.string "everyone calls me sex machine\p"
+	.string "for some reason. Anywho.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
@@ -39,8 +38,13 @@ gText_Birch_BoyOrGirl::
 gText_Birch_Nuzlocke::
 	.string "Will you be performing the\n"
 	.string "Nuzlocke challenge?\l"
-	.string "What? don't say 'no'.\l"
+	.string "What? Don't say 'no'.\l"
 	.string "Do it. Pussy.$"
+
+gText_Birch_WhosMyKid::
+	.string "Oh, right, what's my kid's\n"
+	.string "name again? Was it Ethan?\l"
+	.string "Marsha? I dunno, you name 'em.$"
 
 gText_Birch_WhatsYourName::
 	.string "All right.\n"
@@ -55,6 +59,10 @@ gText_Birch_YourePlayer::
 	.string "hometown of LITTLEROOT.\l"
 	.string "I get it now!\p"
 	.string "$"
+
+gText_Birch_RivalIs::
+	.string "{RIVAL}... Fuck it,\n"
+	.string "that sounds good.$"
 
 gText_Birch_AreYouReady::
 	.string "All right, are you ready?\p"

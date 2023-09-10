@@ -348,6 +348,8 @@ extern const u8 gText_Birch_AndYouAre[];
 extern const u8 gText_Birch_BoyOrGirl[];
 extern const u8 gText_Birch_Nuzlocke[];
 extern const u8 gText_Birch_WhatsYourName[];
+extern const u8 gText_Birch_WhosMyKid[];
+extern const u8 gText_Birch_RivalIs[];
 extern const u8 gText_Birch_SoItsPlayer[];
 extern const u8 gText_Birch_AndRivalIs[];
 extern const u8 gText_Birch_YourePlayer[];
