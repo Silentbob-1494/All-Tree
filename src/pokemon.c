@@ -81,6 +81,16 @@ EWRAM_DATA static u8 sTriedEvolving = 0;
 
 #include "data/battle_moves.h"
 
+static const u8 sText_BattleRivalName[] = _("{RIVAL}");
+
+const u8 *GetTrainerName(const struct Trainer *trainer)
+{
+    const u8 *trainerName = trainer->trainerName;
+    if (!StringCompare(trainerName, sText_BattleRivalName))
+        trainerName = GetExpandedPlaceholder(PLACEHOLDER_ID_RIVAL);
+    return trainerName;
+}
+
 // Used in an unreferenced function in RS.
 // Unreferenced here and in FRLG.
 struct CombinedMove
@@ -8111,7 +8121,7 @@ const u8 *GetTrainerNameFromId(u16 trainerId)
 {
     if (trainerId >= TRAINERS_COUNT)
         trainerId = TRAINER_NONE;
-    return gTrainers[trainerId].trainerName;
+    return GetTrainerName(&gTrainers[trainerId]);
 }
 
 bool8 HasTwoFramesAnimation(u16 species)

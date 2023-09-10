@@ -3005,7 +3005,7 @@ static void GetBattlerNick(u32 battlerId, u8 *dst)
 static const u8 *BattleStringGetOpponentNameByTrainerId(u16 trainerId, u8 *text, u8 multiplayerId, u8 battlerId)
 {
     const u8 *toCpy;
-
+ 
     if (gBattleTypeFlags & BATTLE_TYPE_SECRET_BASE)
     {
         u32 i;
@@ -3048,9 +3048,9 @@ static const u8 *BattleStringGetOpponentNameByTrainerId(u16 trainerId, u8 *text,
     }
     else
     {
-        toCpy = gTrainers[trainerId].trainerName;
+        toCpy = GetTrainerNameFromId(trainerId);
     }
-
+ 
     return toCpy;
 }
 

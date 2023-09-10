@@ -539,6 +539,8 @@ static const u8 *const sFemalePresetNames[] = {
     gText_DefaultNameHalie
 };
 
+
+
 // The number of male vs. female names is assumed to be the same.
 // If they aren't, the smaller of the two sizes will be used and any extra names will be ignored.
 #define NUM_PRESET_NAMES min(ARRAY_COUNT(sMalePresetNames), ARRAY_COUNT(sFemalePresetNames))
@@ -1697,6 +1699,10 @@ static void Task_NewGameBirchSpeech_StartRivalNamingScreen(u8 taskId)
         FreeAllWindowBuffers();
         FreeAndDestroyMonPicSprite(gTasks[taskId].tLotadSpriteId);
         DestroyTask(taskId);
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            StringCopy(gSaveBlock2Ptr->rivalName, sFemalePresetNames[Random() % NELEMS(sFemalePresetNames)]); 
+        else
+            StringCopy(gSaveBlock2Ptr->rivalName, sMalePresetNames[Random() % NELEMS(sMalePresetNames)]);
         DoNamingScreen(NAMING_SCREEN_RIVAL, gSaveBlock2Ptr->rivalName, 0, 0, 0, CB2_NewGameBirchSpeech_ReturnFromRivalNamingScreen);
     }
 }
@@ -2007,6 +2013,7 @@ static void CB2_NewGameBirchSpeech_ReturnFromRivalNamingScreen(void)
 {
     u8 taskId;
     u8 spriteId;
+    u16 savedIme;
 
     ResetBgsAndClearDma3BusyFlags(0);
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
@@ -2065,6 +2072,10 @@ static void CB2_NewGameBirchSpeech_ReturnFromRivalNamingScreen(void)
     SetGpuReg(REG_OFFSET_BLDY, 0);
     ShowBg(0);
     ShowBg(1);
+    savedIme = REG_IME;
+    REG_IME = 0;
+    REG_IE |= 1;
+    REG_IME = savedIme;
     SetVBlankCallback(VBlankCB_MainMenu);
     SetMainCallback2(CB2_MainMenu);
     InitWindows(sNewGameBirchSpeechTextWindows);
