@@ -78,6 +78,7 @@ const u16 gObjectEventPal_Ninja[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Mystery[] = INCBIN_U16("graphics/object_events/palettes/mystery_man.gbapal");
 const u16 gObjectEventPal_Mom[] = INCBIN_U16("graphics/object_events/palettes/mom.gbapal");
 const u16 gObjectEventPal_Shopkeep[] = INCBIN_U16("graphics/object_events/palettes/shopkeep.gbapal");
+const u16 gObjectEventPal_Witch[] = INCBIN_U16("graphics/object_events/palettes/witch.gbapal");
 const u16 gObjectEventPal_Npc1Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_1_reflection.gbapal");
 const u16 gObjectEventPal_Npc2Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_2_reflection.gbapal");
 const u16 gObjectEventPal_Npc3Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_3_reflection.gbapal");
