@@ -1218,6 +1218,10 @@ text OBJ_Says{
 }
 
 movement Test_OBJ_Move{
+	emote_question_mark
+	delay_16
+	delay_16
+	delay_16
 	walk_left*2
 	walk_up*2
 	walk_right*2

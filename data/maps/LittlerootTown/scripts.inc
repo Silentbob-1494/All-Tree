@@ -1238,6 +1238,10 @@ Test_OBJ_EVENT_muhfucka::
 
 
 Test_OBJ_Move:
+	emote_question_mark
+	delay_16
+	delay_16
+	delay_16
 	walk_left
 	walk_left
 	walk_up

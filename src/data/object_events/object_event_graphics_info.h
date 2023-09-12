@@ -798,7 +798,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maniac = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_Witch,
+    .paletteTag = OBJ_EVENT_PAL_TAG_WITCH,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
