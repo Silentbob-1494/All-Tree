@@ -38,6 +38,8 @@ enum {
     PALSLOT_WITCH,
     PALSLOT_GENT,
     PALSLOT_FISHERMAN,
+    PALSLOT_AQUA,
+    PALSLOT_MAGMA,
     OBJ_PALSLOT_COUNT
     // the remaining sprite palette slots (12-15) are used by field effects, the interface, etc.
 };
