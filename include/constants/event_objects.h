@@ -241,8 +241,11 @@
 #define OBJ_EVENT_GFX_LUGIA                      237
 #define OBJ_EVENT_GFX_HOOH                       238
 #define OBJ_EVENT_GFX_PSYCHIC_F                  239
+#define OBJ_EVENT_GFX_AQUA_ADMIN_M               240
+#define OBJ_EVENT_GFX_AQUA_ADMIN_F               241
+#define OBJ_EVENT_GFX_MAGMA_ADMIN_F              242
 
-// NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
+// NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 242.
 //
 // Object event graphics ids are 1 byte in size (max value of 255), and the dynamic
 // graphics ids that start after NUM_OBJ_EVENT_GFX reach this limit. No graphics id
