@@ -457,6 +457,14 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_FISHERMAN               0x1140
 #define OBJ_EVENT_PAL_TAG_AQUA                    0x1141
 #define OBJ_EVENT_PAL_TAG_MAGMA                   0x1142
+#define OBJ_EVENT_PAL_TAG_DAD                     0x1143
+#define OBJ_EVENT_PAL_TAG_JUAN                    0x1144
+#define OBJ_EVENT_PAL_TAG_FLANNERY                0x1145
+#define OBJ_EVENT_PAL_TAG_LIZATATE                0x1146
+#define OBJ_EVENT_PAL_TAG_ANNABELLE               0x1147
+#define OBJ_EVENT_PAL_TAG_BRANDON                 0x1148
+#define OBJ_EVENT_PAL_TAG_GRETA                   0x1149
+#define OBJ_EVENT_PAL_TAG_LUCY                    0x1150
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 
@@ -523,6 +531,14 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Fisherman,             OBJ_EVENT_PAL_TAG_FISHERMAN},
     {gObjectEventPal_Aqua,                  OBJ_EVENT_PAL_TAG_AQUA},
     {gObjectEventPal_Magma,                 OBJ_EVENT_PAL_TAG_MAGMA},
+    {gObjectEventPal_Dad,                   OBJ_EVENT_PAL_TAG_DAD},
+    {gObjectEventPal_Juan,                  OBJ_EVENT_PAL_TAG_JUAN},
+    {gObjectEventPal_Flannery,              OBJ_EVENT_PAL_TAG_FLANNERY},
+    {gObjectEventPal_LizaTate,              OBJ_EVENT_PAL_TAG_LIZATATE},
+    {gObjectEventPal_Annabelle,             OBJ_EVENT_PAL_TAG_ANNABELLE},
+    {gObjectEventPal_Brandon,               OBJ_EVENT_PAL_TAG_BRANDON},
+    {gObjectEventPal_Greta,                 OBJ_EVENT_PAL_TAG_GRETA},
+    {gObjectEventPal_Lucy,                  OBJ_EVENT_PAL_TAG_LUCY},
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
