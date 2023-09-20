@@ -489,6 +489,7 @@ PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV::
 PlayersHouse_1F_EventScript_NuzlockeOver::
 	playfanfare MUS_OBTAIN_BADGE
 	msgbox PlayersHouse_1F_Text_NuzlockeIsOver, MSGBOX_DEFAULT
+	special DoDomeConfetti
 	waitfanfare
 	clearflag FLAG_NUZLOCKE
 	return
