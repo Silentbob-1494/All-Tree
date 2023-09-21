@@ -3042,6 +3042,7 @@ extern const u8 gText_Cancel3[];
 extern const u8 gText_First_Set[];
 extern const u8 gText_Second_Set[];
 extern const u8 gText_Third_Set[];
+extern const u8 gText_AshQty[];
 
 // Naming Screen
 extern const u8 gText_MoveOkBack[];
