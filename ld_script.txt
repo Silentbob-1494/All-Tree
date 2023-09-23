@@ -1415,13 +1415,13 @@ SECTIONS {
         data/multiboot_pokemon_colosseum.o(.rodata);
     } =0
 
-    gfx_data  :
+    anim_mon_front_pic_data :
     ALIGN(4)
     {
         src/graphics.o(.rodata);
     } =0
 
-    extra :
+    gfx_data :
     ALIGN(4)
     {
         src/*.o(.text);
