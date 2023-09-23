@@ -1389,13 +1389,6 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Brandon,               OBJ_EVENT_PAL_TAG_BRANDON},
     {gObjectEventPal_Greta,                 OBJ_EVENT_PAL_TAG_GRETA},
     {gObjectEventPal_Lucy,                  OBJ_EVENT_PAL_TAG_LUCY},
-#ifdef BUGFIX
-    {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
-#else
-    {}, // BUG: FindObjectEventPaletteIndexByTag looks for OBJ_EVENT_PAL_TAG_NONE and not 0x0.
-        // If it's looking for a tag that isn't in this table, the game locks in an infinite loop.
-#endif
-    //Pokemon overworlds
     {gObjectEventPalette_Pokemon_Species_001, OBJ_EVENT_PAL_TAG_POKEMON_001},
 	{gObjectEventPalette_Pokemon_Species_002, OBJ_EVENT_PAL_TAG_POKEMON_002},
 	{gObjectEventPalette_Pokemon_Species_003, OBJ_EVENT_PAL_TAG_POKEMON_003},
@@ -2242,7 +2235,12 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPalette_Pokemon_Species_902, OBJ_EVENT_PAL_TAG_POKEMON_902},
 	{gObjectEventPalette_Pokemon_Species_903, OBJ_EVENT_PAL_TAG_POKEMON_903},
 	{gObjectEventPalette_Pokemon_Species_904, OBJ_EVENT_PAL_TAG_POKEMON_904},
-	{NULL,                                    OBJ_EVENT_PAL_TAG_NONE},
+#ifdef BUGFIX
+    {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
+#else
+    {}, // BUG: FindObjectEventPaletteIndexByTag looks for OBJ_EVENT_PAL_TAG_NONE and not 0x0.
+        // If it's looking for a tag that isn't in this table, the game locks in an infinite loop.
+#endif
 };
 
 

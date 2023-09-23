@@ -48,6 +48,7 @@ enum {
     PALSLOT_BRANDON,
     PALSLOT_GRETA,
     PALSLOT_LUCY,
+    PALSLOT_BULBASAUR,
     OBJ_PALSLOT_COUNT
     // the remaining sprite palette slots (12-15) are used by field effects, the interface, etc.
 };
