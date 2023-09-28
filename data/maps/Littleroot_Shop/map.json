@@ -2,7 +2,7 @@
   "id": "MAP_LITTLEROOT_SHOP",
   "name": "Littleroot_Shop",
   "layout": "LAYOUT_LITTLEROOT_SHOP",
-  "music": "MUS_POKE_MART",
+  "music": "MUS_BAD",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

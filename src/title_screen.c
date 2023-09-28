@@ -608,7 +608,7 @@ void CB2_InitTitleScreen(void)
                                     | DISPCNT_OBJ_ON
                                     | DISPCNT_WIN0_ON
                                     | DISPCNT_OBJWIN_ON);
-        m4aSongNumStart(MUS_FIGHTSONG);
+        m4aSongNumStart(MUS_AENIMA);
         gMain.state = 5;
         break;
     case 5:

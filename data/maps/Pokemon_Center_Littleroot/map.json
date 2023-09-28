@@ -2,7 +2,7 @@
   "id": "MAP_POKEMON_CENTER_LITTLEROOT",
   "name": "Pokemon_Center_Littleroot",
   "layout": "LAYOUT_POKEMON_CENTER_LITTLEROOT",
-  "music": "MUS_POKE_CENTER",
+  "music": "MUS_BADGUY",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

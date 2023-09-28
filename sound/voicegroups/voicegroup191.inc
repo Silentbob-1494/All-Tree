@@ -1,6 +1,5 @@
     .align 2   
 voicegroup191::
-	voice_keysplit_all voicegroup001
 	voice_keysplit voicegroup005, KeySplitTable1
 	voice_directsound 60, 0, DirectSoundWaveData_steinway_b_piano, 128, 204, 51, 242
 	voice_directsound 60, 0, DirectSoundWaveData_unknown_koto_high, 255, 0, 206, 242
