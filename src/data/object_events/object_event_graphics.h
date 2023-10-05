@@ -2835,8 +2835,149 @@ const u16 gObjectEventPalette_Pokemon_Species_808[] = INCBIN_U16("graphics/objec
 const u32 gObjectEventPic_Pokemon_Species_809[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/809.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_809[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/809.gbapal");
 
+const u32 gObjectEventPic_Pokemon_Species_810[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/810.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_810[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/810.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_811[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/811.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_811[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/811.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_812[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/812.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_812[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/812.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_813[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/813.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_813[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/813.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_814[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/814.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_814[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/814.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_815[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/815.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_815[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/815.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_816[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/816.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_816[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/816.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_817[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/817.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_817[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/817.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_818[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/818.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_818[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/818.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_819[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/819.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_819[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/819.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_820[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/820.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_820[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/820.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_821[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/821.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_821[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/821.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_822[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/822.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_822[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/822.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_823[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/823.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_823[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/823.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_824[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/824.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_824[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/824.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_825[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/825.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_825[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/825.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_826[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/826.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_826[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/826.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_827[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/827.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_827[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/827.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_828[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/828.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_828[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/828.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_829[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/829.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_829[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/829.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_830[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/830.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_830[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/830.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_831[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/831.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_831[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/831.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_832[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/832.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_832[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/832.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_833[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/833.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_833[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/833.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_834[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/834.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_834[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/834.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_835[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/835.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_835[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/835.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_836[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/836.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_836[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/836.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_837[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/837.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_837[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/837.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_838[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/838.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_838[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/838.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_839[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/839.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_839[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/839.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_840[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/840.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_840[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/840.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_841[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/841.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_841[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/841.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_842[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/842.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_842[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/842.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_843[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/843.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_843[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/843.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_844[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/844.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_844[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/844.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_845[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/845.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_845[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/845.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_846[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/846.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_846[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/846.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_847[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/847.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_847[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/847.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_848[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/848.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_848[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/848.gbapal");
+
 const u32 gObjectEventPic_Pokemon_Species_849[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/849.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_849[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/849.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_850[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/850.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_850[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/850.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_851[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/851.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_851[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/851.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_852[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/852.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_852[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/852.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_853[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/853.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_853[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/853.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_854[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/854.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_854[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/854.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_855[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/855.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_855[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/855.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_856[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/856.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_856[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/856.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_857[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/857.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_857[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/857.gbapal");
 
 const u32 gObjectEventPic_Pokemon_Species_858[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/858.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_858[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/858.gbapal");
@@ -2864,6 +3005,12 @@ const u16 gObjectEventPalette_Pokemon_Species_865[] = INCBIN_U16("graphics/objec
 
 const u32 gObjectEventPic_Pokemon_Species_866[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/866.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_866[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/866.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_867[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/867.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_867[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/867.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_868[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/868.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_868[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/868.gbapal");
 
 const u32 gObjectEventPic_Pokemon_Species_869[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/869.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_869[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/869.gbapal");
@@ -2916,8 +3063,35 @@ const u16 gObjectEventPalette_Pokemon_Species_884[] = INCBIN_U16("graphics/objec
 const u32 gObjectEventPic_Pokemon_Species_885[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/885.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_885[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/885.gbapal");
 
+const u32 gObjectEventPic_Pokemon_Species_886[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/886.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_886[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/886.gbapal");
+
 const u32 gObjectEventPic_Pokemon_Species_887[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/887.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_887[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/887.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_888[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/888.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_888[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/888.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_889[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/889.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_889[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/889.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_890[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/890.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_890[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/890.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_891[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/891.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_891[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/891.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_892[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/892.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_892[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/892.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_893[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/893.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_893[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/893.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_894[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/894.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_894[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/894.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_895[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/895.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_895[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/895.gbapal");
 
 const u32 gObjectEventPic_Pokemon_Species_896[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/896.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_896[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/896.gbapal");
@@ -2945,3 +3119,453 @@ const u16 gObjectEventPalette_Pokemon_Species_903[] = INCBIN_U16("graphics/objec
 
 const u32 gObjectEventPic_Pokemon_Species_904[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/904.4bpp");
 const u16 gObjectEventPalette_Pokemon_Species_904[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/904.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_905[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/905.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_905[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/905.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_906[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/906.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_906[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/906.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_907[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/907.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_907[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/907.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_908[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/908.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_908[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/908.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_909[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/909.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_909[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/909.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_910[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/910.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_910[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/910.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_911[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/911.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_911[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/911.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_912[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/912.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_912[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/912.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_913[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/913.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_913[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/913.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_914[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/914.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_914[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/914.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_915[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/915.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_915[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/915.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_916[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/916.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_916[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/916.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_917[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/917.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_917[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/917.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_918[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/918.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_918[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/918.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_919[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/919.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_919[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/919.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_920[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/920.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_920[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/920.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_921[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/921.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_921[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/921.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_922[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/922.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_922[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/922.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_923[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/923.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_923[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/923.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_924[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/924.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_924[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/924.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_925[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/925.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_925[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/925.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_926[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/926.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_926[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/926.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_927[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/927.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_927[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/927.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_928[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/928.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_928[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/928.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_929[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/929.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_929[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/929.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_930[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/930.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_930[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/930.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_931[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/931.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_931[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/931.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_932[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/932.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_932[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/932.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_933[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/933.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_933[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/933.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_934[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/934.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_934[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/934.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_935[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/935.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_935[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/935.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_936[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/936.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_936[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/936.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_937[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/937.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_937[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/937.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_938[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/938.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_938[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/938.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_939[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/939.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_939[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/939.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_940[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/940.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_940[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/940.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_941[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/941.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_941[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/941.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_942[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/942.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_942[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/942.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_943[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/943.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_943[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/943.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_944[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/944.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_944[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/944.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_945[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/945.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_945[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/945.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_946[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/946.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_946[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/946.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_947[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/947.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_947[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/947.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_948[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/948.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_948[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/948.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_949[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/949.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_949[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/949.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_950[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/950.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_950[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/950.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_951[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/951.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_951[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/951.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_952[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/952.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_952[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/952.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_953[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/953.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_953[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/953.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_954[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/954.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_954[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/954.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_955[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/955.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_955[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/955.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_956[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/956.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_956[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/956.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_957[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/957.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_957[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/957.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_958[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/958.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_958[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/958.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_959[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/959.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_959[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/959.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_960[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/960.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_960[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/960.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_961[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/961.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_961[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/961.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_962[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/962.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_962[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/962.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_963[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/963.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_963[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/963.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_964[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/964.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_964[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/964.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_965[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/965.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_965[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/965.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_966[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/966.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_966[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/966.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_967[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/967.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_967[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/967.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_968[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/968.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_968[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/968.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_969[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/969.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_969[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/969.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_970[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/970.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_970[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/970.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_971[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/971.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_971[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/971.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_972[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/972.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_972[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/972.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_973[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/973.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_973[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/973.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_974[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/974.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_974[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/974.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_975[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/975.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_975[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/975.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_976[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/976.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_976[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/976.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_977[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/977.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_977[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/977.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_978[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/978.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_978[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/978.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_979[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/979.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_979[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/979.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_980[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/980.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_980[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/980.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_981[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/981.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_981[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/981.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_982[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/982.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_982[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/982.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_983[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/983.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_983[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/983.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_984[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/984.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_984[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/984.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_985[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/985.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_985[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/985.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_986[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/986.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_986[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/986.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_987[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/987.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_987[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/987.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_988[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/988.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_988[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/988.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_989[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/989.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_989[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/989.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_990[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/990.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_990[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/990.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_991[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/991.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_991[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/991.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_992[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/992.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_992[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/992.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_993[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/993.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_993[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/993.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_994[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/994.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_994[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/994.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_995[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/995.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_995[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/995.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_996[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/996.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_996[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/996.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_997[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/997.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_997[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/997.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_998[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/998.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_998[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/998.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_999[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/999.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_999[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/999.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1000[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1000.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1000[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1000.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1001[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1001.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1001[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1001.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1002[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1002.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1002[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1002.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1003[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1003.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1003[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1003.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1004[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1004.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1004[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1004.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1005[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1005.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1005[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1005.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1006[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1006.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1006[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1006.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1007[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1007.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1007[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1007.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1008[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1008.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1008[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1008.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1009[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1009.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1009[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1009.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1010[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1010.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1010[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1010.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1011[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1011.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1011[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1011.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1012[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1012.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1012[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1012.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1013[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1013.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1013[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1013.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1014[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1014.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1014[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1014.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1015[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1015.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1015[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1015.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1016[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1016.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1016[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1016.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1017[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1017.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1017[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1017.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1018[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1018.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1018[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1018.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1019[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1019.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1019[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1019.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1020[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1020.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1020[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1020.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1021[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1021.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1021[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1021.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1022[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1022.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1022[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1022.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1023[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1023.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1023[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1023.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1024[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1024.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1024[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1024.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1025[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1025.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1025[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1025.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1026[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1026.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1026[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1026.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1027[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1027.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1027[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1027.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1028[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1028.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1028[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1028.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1029[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1029.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1029[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1029.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1030[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1030.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1030[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1030.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1031[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1031.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1031[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1031.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1032[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1032.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1032[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1032.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1033[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1033.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1033[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1033.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1034[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1034.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1034[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1034.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1035[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1035.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1035[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1035.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1036[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1036.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1036[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1036.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1037[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1037.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1037[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1037.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1038[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1038.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1038[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1038.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1039[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1039.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1039[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1039.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1040[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1040.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1040[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1040.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1041[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1041.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1041[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1041.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1042[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1042.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1042[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1042.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1043[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1043.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1043[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1043.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1044[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1044.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1044[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1044.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1045[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1045.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1045[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1045.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1046[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1046.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1046[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1046.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1047[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1047.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1047[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1047.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1048[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1048.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1048[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1048.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1049[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1049.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1049[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1049.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1050[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1050.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1050[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1050.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1051[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1051.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1051[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1051.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1052[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1052.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1052[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1052.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1053[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1053.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1053[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1053.gbapal");
+
+const u32 gObjectEventPic_Pokemon_Species_1054[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/1054.4bpp");
+const u16 gObjectEventPalette_Pokemon_Species_1054[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/1054.gbapal");

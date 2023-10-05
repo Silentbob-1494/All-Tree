@@ -1,3 +1,5 @@
+Littleroot_Shop_MapScripts::
+
 script Littleroot_Mart_Employee{
     lock
     faceplayer
