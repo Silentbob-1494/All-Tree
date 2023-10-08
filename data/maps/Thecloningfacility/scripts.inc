@@ -48,6 +48,7 @@ ProfMove:
 	walk_right
 	walk_up
 	walk_up
+	face_down
 	step_end
 
 StopLeaving::
@@ -507,6 +508,7 @@ GivePokedex::
 MoveBallOne:
 	walk_down
 	walk_down
+	face_player
 	step_end
 
 TurnToProf:

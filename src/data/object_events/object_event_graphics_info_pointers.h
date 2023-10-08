@@ -1555,7 +1555,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 
     //Pokemon overworlds
 
-    //Gen 1 (151
+    //Gen 1 151
     [OBJ_EVENT_GFX_POKEMON_BULBASAUR] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_001,
     [OBJ_EVENT_GFX_POKEMON_IVYSAUR] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_002,
     [OBJ_EVENT_GFX_POKEMON_VENUSAUR] =  	   &gObjectEventGraphicsInfo_Pokemon_Species_003,
@@ -1708,7 +1708,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_MEWTWO] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_150,
     [OBJ_EVENT_GFX_POKEMON_MEW] = 	           &gObjectEventGraphicsInfo_Pokemon_Species_151,
 
-    //Gen 2 (100
+    //Gen 2 100
     [OBJ_EVENT_GFX_POKEMON_CHIKORITA] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_152,
     [OBJ_EVENT_GFX_POKEMON_BAYLEEF] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_153,
     [OBJ_EVENT_GFX_POKEMON_MEGANIUM] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_154,
@@ -1810,62 +1810,62 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_HO_OH] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_250,
     [OBJ_EVENT_GFX_POKEMON_CELEBI] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_251,
 
-    //Gen 3 (135
-    [OBJ_EVENT_GFX_POKEMON_252] = 	&gObjectEventGraphicsInfo_Pokemon_Species_252,
-    [OBJ_EVENT_GFX_POKEMON_253] = 	&gObjectEventGraphicsInfo_Pokemon_Species_253,
-    [OBJ_EVENT_GFX_POKEMON_254] = 	&gObjectEventGraphicsInfo_Pokemon_Species_254,
-    [OBJ_EVENT_GFX_POKEMON_255] = 	&gObjectEventGraphicsInfo_Pokemon_Species_255,
-    [OBJ_EVENT_GFX_POKEMON_256] = 	&gObjectEventGraphicsInfo_Pokemon_Species_256,
-    [OBJ_EVENT_GFX_POKEMON_257] = 	&gObjectEventGraphicsInfo_Pokemon_Species_257,
-    [OBJ_EVENT_GFX_POKEMON_258] = 	&gObjectEventGraphicsInfo_Pokemon_Species_258,
-    [OBJ_EVENT_GFX_POKEMON_259] = 	&gObjectEventGraphicsInfo_Pokemon_Species_259,
-    [OBJ_EVENT_GFX_POKEMON_260] = 	&gObjectEventGraphicsInfo_Pokemon_Species_260,
-    [OBJ_EVENT_GFX_POKEMON_261] = 	&gObjectEventGraphicsInfo_Pokemon_Species_261,
-    [OBJ_EVENT_GFX_POKEMON_262] = 	&gObjectEventGraphicsInfo_Pokemon_Species_262,
-    [OBJ_EVENT_GFX_POKEMON_263] = 	&gObjectEventGraphicsInfo_Pokemon_Species_263,
-    [OBJ_EVENT_GFX_POKEMON_264] = 	&gObjectEventGraphicsInfo_Pokemon_Species_264,
-    [OBJ_EVENT_GFX_POKEMON_265] = 	&gObjectEventGraphicsInfo_Pokemon_Species_265,
-    [OBJ_EVENT_GFX_POKEMON_266] = 	&gObjectEventGraphicsInfo_Pokemon_Species_266,
-    [OBJ_EVENT_GFX_POKEMON_267] = 	&gObjectEventGraphicsInfo_Pokemon_Species_267,
-    [OBJ_EVENT_GFX_POKEMON_268] = 	&gObjectEventGraphicsInfo_Pokemon_Species_268,
-    [OBJ_EVENT_GFX_POKEMON_269] = 	&gObjectEventGraphicsInfo_Pokemon_Species_269,
-    [OBJ_EVENT_GFX_POKEMON_270] = 	&gObjectEventGraphicsInfo_Pokemon_Species_270,
-    [OBJ_EVENT_GFX_POKEMON_271] = 	&gObjectEventGraphicsInfo_Pokemon_Species_271,
-    [OBJ_EVENT_GFX_POKEMON_272] = 	&gObjectEventGraphicsInfo_Pokemon_Species_272,
-    [OBJ_EVENT_GFX_POKEMON_273] = 	&gObjectEventGraphicsInfo_Pokemon_Species_273,
-    [OBJ_EVENT_GFX_POKEMON_274] = 	&gObjectEventGraphicsInfo_Pokemon_Species_274,
-    [OBJ_EVENT_GFX_POKEMON_275] = 	&gObjectEventGraphicsInfo_Pokemon_Species_275,
-    [OBJ_EVENT_GFX_POKEMON_276] = 	&gObjectEventGraphicsInfo_Pokemon_Species_276,
-    [OBJ_EVENT_GFX_POKEMON_277] = 	&gObjectEventGraphicsInfo_Pokemon_Species_277,
-    [OBJ_EVENT_GFX_POKEMON_278] = 	&gObjectEventGraphicsInfo_Pokemon_Species_278,
-    [OBJ_EVENT_GFX_POKEMON_279] = 	&gObjectEventGraphicsInfo_Pokemon_Species_279,
-    [OBJ_EVENT_GFX_POKEMON_280] = 	&gObjectEventGraphicsInfo_Pokemon_Species_280,
-    [OBJ_EVENT_GFX_POKEMON_281] = 	&gObjectEventGraphicsInfo_Pokemon_Species_281,
-    [OBJ_EVENT_GFX_POKEMON_282] = 	&gObjectEventGraphicsInfo_Pokemon_Species_282,
-    [OBJ_EVENT_GFX_POKEMON_283] = 	&gObjectEventGraphicsInfo_Pokemon_Species_283,
-    [OBJ_EVENT_GFX_POKEMON_284] = 	&gObjectEventGraphicsInfo_Pokemon_Species_284,
-    [OBJ_EVENT_GFX_POKEMON_285] = 	&gObjectEventGraphicsInfo_Pokemon_Species_285,
-    [OBJ_EVENT_GFX_POKEMON_286] = 	&gObjectEventGraphicsInfo_Pokemon_Species_286,
-    [OBJ_EVENT_GFX_POKEMON_287] = 	&gObjectEventGraphicsInfo_Pokemon_Species_287,
-    [OBJ_EVENT_GFX_POKEMON_288] = 	&gObjectEventGraphicsInfo_Pokemon_Species_288,
-    [OBJ_EVENT_GFX_POKEMON_289] = 	&gObjectEventGraphicsInfo_Pokemon_Species_289,
-    [OBJ_EVENT_GFX_POKEMON_290] = 	&gObjectEventGraphicsInfo_Pokemon_Species_290,
-    [OBJ_EVENT_GFX_POKEMON_291] = 	&gObjectEventGraphicsInfo_Pokemon_Species_291,
-    [OBJ_EVENT_GFX_POKEMON_292] = 	&gObjectEventGraphicsInfo_Pokemon_Species_292,
-    [OBJ_EVENT_GFX_POKEMON_293] = 	&gObjectEventGraphicsInfo_Pokemon_Species_293,
-    [OBJ_EVENT_GFX_POKEMON_294] = 	&gObjectEventGraphicsInfo_Pokemon_Species_294,
-    [OBJ_EVENT_GFX_POKEMON_295] = 	&gObjectEventGraphicsInfo_Pokemon_Species_295,
-    [OBJ_EVENT_GFX_POKEMON_296] = 	&gObjectEventGraphicsInfo_Pokemon_Species_296,
-    [OBJ_EVENT_GFX_POKEMON_297] = 	&gObjectEventGraphicsInfo_Pokemon_Species_297,
-    [OBJ_EVENT_GFX_POKEMON_298] = 	&gObjectEventGraphicsInfo_Pokemon_Species_298,
-    [OBJ_EVENT_GFX_POKEMON_299] = 	&gObjectEventGraphicsInfo_Pokemon_Species_299,
-    [OBJ_EVENT_GFX_POKEMON_300] = 	&gObjectEventGraphicsInfo_Pokemon_Species_300,
-    [OBJ_EVENT_GFX_POKEMON_301] = 	&gObjectEventGraphicsInfo_Pokemon_Species_301,
-    [OBJ_EVENT_GFX_POKEMON_302] = 	&gObjectEventGraphicsInfo_Pokemon_Species_302,
-    [OBJ_EVENT_GFX_POKEMON_303] = 	&gObjectEventGraphicsInfo_Pokemon_Species_303,
-    [OBJ_EVENT_GFX_POKEMON_304] = 	&gObjectEventGraphicsInfo_Pokemon_Species_304,
-    [OBJ_EVENT_GFX_POKEMON_305] = 	&gObjectEventGraphicsInfo_Pokemon_Species_305,
-    [OBJ_EVENT_GFX_POKEMON_306] = 	&gObjectEventGraphicsInfo_Pokemon_Species_306,
+    //Gen 3 135
+    [OBJ_EVENT_GFX_POKEMON_TREECKO] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_252,
+    [OBJ_EVENT_GFX_POKEMON_GROVYLE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_253,
+    [OBJ_EVENT_GFX_POKEMON_SCEPTILE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_254,
+    [OBJ_EVENT_GFX_POKEMON_TORCHIC] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_255,
+    [OBJ_EVENT_GFX_POKEMON_COMBUSKEN] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_256,
+    [OBJ_EVENT_GFX_POKEMON_BLAZIKEN] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_257,
+    [OBJ_EVENT_GFX_POKEMON_MUDKIP] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_258,
+    [OBJ_EVENT_GFX_POKEMON_MARSHTOMP] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_259,
+    [OBJ_EVENT_GFX_POKEMON_SWAMPERT] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_260,
+    [OBJ_EVENT_GFX_POKEMON_POOCHYENA] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_261,
+    [OBJ_EVENT_GFX_POKEMON_MIGHTYENA] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_262,
+    [OBJ_EVENT_GFX_POKEMON_ZIGZAGOON] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_263,
+    [OBJ_EVENT_GFX_POKEMON_LINOONE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_264,
+    [OBJ_EVENT_GFX_POKEMON_WURMPLE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_265,
+    [OBJ_EVENT_GFX_POKEMON_SILCOON] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_266,
+    [OBJ_EVENT_GFX_POKEMON_BEAUTIFLY] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_267,
+    [OBJ_EVENT_GFX_POKEMON_CASCOON] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_268,
+    [OBJ_EVENT_GFX_POKEMON_DUSTOX] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_269,
+    [OBJ_EVENT_GFX_POKEMON_LOTAD] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_270,
+    [OBJ_EVENT_GFX_POKEMON_LOMBRE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_271,
+    [OBJ_EVENT_GFX_POKEMON_LUDICOLO] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_272,
+    [OBJ_EVENT_GFX_POKEMON_SEEDOT] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_273,
+    [OBJ_EVENT_GFX_POKEMON_NUZLEAF] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_274,
+    [OBJ_EVENT_GFX_POKEMON_SHIFTRY] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_275,
+    [OBJ_EVENT_GFX_POKEMON_TAILLOW] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_276,
+    [OBJ_EVENT_GFX_POKEMON_SWELLOW] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_277,
+    [OBJ_EVENT_GFX_POKEMON_WINGULL] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_278,
+    [OBJ_EVENT_GFX_POKEMON_PELIPPER] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_279,
+    [OBJ_EVENT_GFX_POKEMON_RALTS] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_280,
+    [OBJ_EVENT_GFX_POKEMON_KIRLIA] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_281,
+    [OBJ_EVENT_GFX_POKEMON_GARDEVOIR] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_282,
+    [OBJ_EVENT_GFX_POKEMON_SURSKIT] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_283,
+    [OBJ_EVENT_GFX_POKEMON_MASQUERAIN] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_284,
+    [OBJ_EVENT_GFX_POKEMON_SHROOMISH] = 	   &gObjectEventGraphicsInfo_Pokemon_Species_285,
+    [OBJ_EVENT_GFX_POKEMON_BRELOOM] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_286,
+    [OBJ_EVENT_GFX_POKEMON_SLAKOTH] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_287,
+    [OBJ_EVENT_GFX_POKEMON_VIGOROTH] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_288,
+    [OBJ_EVENT_GFX_POKEMON_SLAKING] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_289,
+    [OBJ_EVENT_GFX_POKEMON_NINCADA] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_290,
+    [OBJ_EVENT_GFX_POKEMON_NINJASK] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_291,
+    [OBJ_EVENT_GFX_POKEMON_SHEDINJA] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_292,
+    [OBJ_EVENT_GFX_POKEMON_WHISMUR] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_293,
+    [OBJ_EVENT_GFX_POKEMON_LOUDRED] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_294,
+    [OBJ_EVENT_GFX_POKEMON_EXPLOUD] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_295,
+    [OBJ_EVENT_GFX_POKEMON_MAKUHITA] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_296,
+    [OBJ_EVENT_GFX_POKEMON_HARIYAMA] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_297,
+    [OBJ_EVENT_GFX_POKEMON_AZURILL] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_298,
+    [OBJ_EVENT_GFX_POKEMON_NOSEPASS] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_299,
+    [OBJ_EVENT_GFX_POKEMON_SKITTY] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_300,
+    [OBJ_EVENT_GFX_POKEMON_DELCATTY] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_301,
+    [OBJ_EVENT_GFX_POKEMON_SABLEYE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_302,
+    [OBJ_EVENT_GFX_POKEMON_MAWILE] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_303,
+    [OBJ_EVENT_GFX_POKEMON_ARON] = 	           &gObjectEventGraphicsInfo_Pokemon_Species_304,
+    [OBJ_EVENT_GFX_POKEMON_LAIRON] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_305,
+    [OBJ_EVENT_GFX_POKEMON_AGGRON] = 	       &gObjectEventGraphicsInfo_Pokemon_Species_306,
     [OBJ_EVENT_GFX_POKEMON_307] = 	&gObjectEventGraphicsInfo_Pokemon_Species_307,
     [OBJ_EVENT_GFX_POKEMON_308] = 	&gObjectEventGraphicsInfo_Pokemon_Species_308,
     [OBJ_EVENT_GFX_POKEMON_309] = 	&gObjectEventGraphicsInfo_Pokemon_Species_309,
@@ -1947,7 +1947,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_385] = 	&gObjectEventGraphicsInfo_Pokemon_Species_385,
     [OBJ_EVENT_GFX_POKEMON_386] = 	&gObjectEventGraphicsInfo_Pokemon_Species_386,
 
-    //Gen 4 (107
+    //Gen 4 107
     [OBJ_EVENT_GFX_POKEMON_387] = 	&gObjectEventGraphicsInfo_Pokemon_Species_387,
     [OBJ_EVENT_GFX_POKEMON_388] = 	&gObjectEventGraphicsInfo_Pokemon_Species_388,
     [OBJ_EVENT_GFX_POKEMON_389] = 	&gObjectEventGraphicsInfo_Pokemon_Species_389,
@@ -2056,7 +2056,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_492] = 	&gObjectEventGraphicsInfo_Pokemon_Species_492,
     [OBJ_EVENT_GFX_POKEMON_493] = 	&gObjectEventGraphicsInfo_Pokemon_Species_493,
 
-    //Gen 5 (156
+    //Gen 5 156
     [OBJ_EVENT_GFX_POKEMON_494] = 	&gObjectEventGraphicsInfo_Pokemon_Species_494,
     [OBJ_EVENT_GFX_POKEMON_495] = 	&gObjectEventGraphicsInfo_Pokemon_Species_495,
     [OBJ_EVENT_GFX_POKEMON_496] = 	&gObjectEventGraphicsInfo_Pokemon_Species_496,
@@ -2214,7 +2214,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_648] = 	&gObjectEventGraphicsInfo_Pokemon_Species_648,
     [OBJ_EVENT_GFX_POKEMON_649] = 	&gObjectEventGraphicsInfo_Pokemon_Species_649,
 
-    //Gen 6 (72
+    //Gen 6 72
     [OBJ_EVENT_GFX_POKEMON_650] = 	&gObjectEventGraphicsInfo_Pokemon_Species_650,
     [OBJ_EVENT_GFX_POKEMON_651] = 	&gObjectEventGraphicsInfo_Pokemon_Species_651,
     [OBJ_EVENT_GFX_POKEMON_652] = 	&gObjectEventGraphicsInfo_Pokemon_Species_652,
@@ -2288,7 +2288,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_720] = 	&gObjectEventGraphicsInfo_Pokemon_Species_720,
     [OBJ_EVENT_GFX_POKEMON_721] = 	&gObjectEventGraphicsInfo_Pokemon_Species_721,
 
-    //Gen 7 (88
+    //Gen 7 88
     [OBJ_EVENT_GFX_POKEMON_722] = 	&gObjectEventGraphicsInfo_Pokemon_Species_722,
     [OBJ_EVENT_GFX_POKEMON_723] = 	&gObjectEventGraphicsInfo_Pokemon_Species_723,
     [OBJ_EVENT_GFX_POKEMON_724] = 	&gObjectEventGraphicsInfo_Pokemon_Species_724,
@@ -2378,7 +2378,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_808] = 	&gObjectEventGraphicsInfo_Pokemon_Species_808,
     [OBJ_EVENT_GFX_POKEMON_809] = 	&gObjectEventGraphicsInfo_Pokemon_Species_809,
 
-    // Gen 8 (96
+    // Gen 8 96
     [OBJ_EVENT_GFX_POKEMON_810] =   &gObjectEventGraphicsInfo_Pokemon_Species_810,
     [OBJ_EVENT_GFX_POKEMON_811] =   &gObjectEventGraphicsInfo_Pokemon_Species_811,
     [OBJ_EVENT_GFX_POKEMON_812] =   &gObjectEventGraphicsInfo_Pokemon_Species_812,
@@ -2476,7 +2476,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEMON_904] =   &gObjectEventGraphicsInfo_Pokemon_Species_904,
     [OBJ_EVENT_GFX_POKEMON_905] =   &gObjectEventGraphicsInfo_Pokemon_Species_905,
 
-    // Gen 9 (112
+    // Gen 9 112
     [OBJ_EVENT_GFX_POKEMON_906] =   &gObjectEventGraphicsInfo_Pokemon_Species_906,
     [OBJ_EVENT_GFX_POKEMON_907] =   &gObjectEventGraphicsInfo_Pokemon_Species_907,
     [OBJ_EVENT_GFX_POKEMON_908] =   &gObjectEventGraphicsInfo_Pokemon_Species_908,

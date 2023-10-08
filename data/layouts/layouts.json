@@ -4422,16 +4422,6 @@
       "blockdata_filepath": "data/layouts/Thecloningfacility/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_SHOP",
-      "name": "Littleroot_Shop_Layout",
-      "width": 11,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
-      "border_filepath": "data/layouts/Littleroot_Shop/border.bin",
-      "blockdata_filepath": "data/layouts/Littleroot_Shop/map.bin"
-    },
-    {
       "id": "LAYOUT_POKEMON_CENTER_LITTLEROOT",
       "name": "Pokemon_Center_Littleroot_Layout",
       "width": 14,

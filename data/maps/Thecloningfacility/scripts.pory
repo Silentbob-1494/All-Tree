@@ -39,6 +39,7 @@ movement ProfMove{
     walk_right *3
     walk_up
     walk_up
+    face_down
 }
  
 text BeginAdventureText{
@@ -398,6 +399,7 @@ script GivePokedex{
 
 movement MoveBallOne{
     walk_down * 2
+    face_player
 }
 
 movement TurnToProf{
